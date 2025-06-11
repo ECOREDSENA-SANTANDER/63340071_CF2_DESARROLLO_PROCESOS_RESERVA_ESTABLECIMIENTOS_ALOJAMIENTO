@@ -26,21 +26,21 @@
               figure
                 img(src="@/assets/curso/tema3/2.svg", alt="alt").img100
             .col
-              p Proporcionar los datos (nombre, domicilio, fecha de llegada y salida, tipo de habitación, número de habitación, número de personas, etc.). 
+              p #[b Proporcionar los datos] (nombre, domicilio, fecha de llegada y salida, tipo de habitación, número de habitación, número de personas, etc.). 
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema3/3.svg", alt="alt").img100
             .col
-              p Tarjeta de crédito (número, fecha de vencimiento, dígitos de seguridad) o realizar un depósito en efectivo a la cuenta del hotel.  
+              p #[b Tarjeta de crédito] (número, fecha de vencimiento, dígitos de seguridad) o realizar un depósito en efectivo a la cuenta del hotel.  
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema3/4.svg", alt="alt").img100
             .col
-              p La tarjeta de crédito solo quedará en garantía y no se realizará ningún cargo, hasta su salida.
+              p La tarjeta de crédito #[b solo quedará en garantía] y no se realizará ningún cargo, hasta su salida.
     
     
     separador
@@ -52,7 +52,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/5.png')})`}"
       )
       .bloque-texto-g__texto.p-lg-5.p-4.my-lg-5.my-2
-        p.mb-0 La política de cancelación de las reservas de hotel, pueden depender de varios factores, como la tarifa de reserva o la fecha #[em check-in.] Los establecimientos de alojamiento definen sus políticas.
+        p.mb-0 La política de cancelación de las reservas de hotel, pueden depender de varios factores, como la tarifa de reserva o la fecha #[em #[b check-in.]] Los establecimientos de alojamiento definen sus políticas.
     
     p.mb-4 Entre las políticas de cancelación encontramos las siguientes:
 

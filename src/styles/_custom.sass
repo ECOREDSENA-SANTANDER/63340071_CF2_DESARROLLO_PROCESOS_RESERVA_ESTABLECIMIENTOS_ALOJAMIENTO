@@ -257,6 +257,10 @@ figcaption
     border-radius: 5px
     color: black
     line-height: 1.2em
+    &__text
+      overflow: auto
+      text-overflow: initial
+      text-wrap: auto
 
 
 .fondo3
@@ -542,3 +546,76 @@ figcaption
     transition: border-color 0.2s ease-in-out
 .linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i 
   color: white
+
+
+
+.tabla-a thead.t1
+    border-top: solid  #E7C96E !important
+    background-color: #E7C96E
+    border-right: solid   #E7C96E !important
+    border-left: solid   #E7C96E !important
+    border-bottom: solid   #E7C96E !important
+
+.tabla-a.tabla-mod1 table
+  table-layout: auto
+  max-width: 100%
+.tabla-a 
+  overflow-x: visible
+@media (max-width: 768px)
+    .tabla-a 
+      overflow-x: auto
+@media (min-width: 768px) and (max-width: 1024px)
+    .tabla-a 
+      overflow-x: auto
+.tabla-a.tabla-mod1
+  td, th 
+    border: 2.2px dashed green
+    padding: 0.3em
+  tr:first-child td 
+    border-top: none
+  tr td:first-child 
+    border-left: none
+  tr td:last-child 
+    border-right: none
+
+
+.white
+  background-color: #fff
+.tabla-a.tabla-mod
+  td, th 
+    border: 2.2px dashed green
+    padding: 0.3em
+  tr:first-child td 
+    border-top: none
+  tr td:first-child 
+    border-left: none
+  tr td:last-child 
+    border-right: none
+.tabla-a thead 
+    border-top: solid  #EAF8F0 !important
+    background-color: #EAF8F0
+    border-right: solid  #EAF8F0 !important
+    border-left: solid  #EAF8F0 !important
+    border-bottom: solid  #EAF8F0 !important
+.tabla-a 
+  overflow-x: visible
+@media (max-width: 768px)
+  .tabla-a 
+    overflow-x: auto
+@media (min-width: 768px) and (max-width: 1024px)
+  .tabla-a 
+    overflow-x: auto
+.bt1
+  background-color: #DCD0E7
+.bt2
+  background-color: #FDEBD3
+.bt3
+  background-color: #FEF5EA
+.bt4
+  background-color: #FBD7A8
+.bt5
+  background-color: #EAF8F0
+
+
+.iz
+  text-align: left

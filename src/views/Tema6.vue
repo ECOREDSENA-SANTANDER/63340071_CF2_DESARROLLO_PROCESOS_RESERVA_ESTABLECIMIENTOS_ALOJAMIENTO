@@ -25,9 +25,9 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto.mx-lg-5.my-lg-4 Es el conjunto de actividades perfectamente diferenciadas entre sí, pero íntimamente relacionadas, que funcionan en forma armónica y coordinada con el propósito de responder a las exigencias de servicios que, en un destino, generan una corriente turística. 
+          h5.bloque-texto-f__texto.mx-lg-5.my-lg-4 Es el conjunto de actividades perfectamente diferenciadas entre sí, pero íntimamente relacionadas, que funcionan en forma armónica y coordinada con el propósito de responder a las exigencias de servicios que, en un destino, generan una corriente turística. 
           .bloque-texto-f__autor.mb-3
-            h3.mb-0 - Cesar Ramírez Cavazza 
+            p.mb-0 - Cesar Ramírez Cavazza 
           
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -177,13 +177,12 @@
       .row.justify-content-center.align-items-center
         .col-lg-12
           p.mb-4 Dentro de un proceso de reserva, es importante tener claridad de los sitios de interés para el turista que se encuentren cerca del establecimiento de alojamiento, actividades lúdicas, manifestaciones culturales, eventos, sitios naturales, que el turista pueda aprovechar dentro o fuera del establecimiento mientras su estadía, con el fin de que pueda aprovechar su tiempo libre, se lleve una buena experiencia y vuelva al establecimiento.  
-          p.mb-2 Se invita a ir al siguiente video:
-          h5.mb-4.pri Nombre: ¿qué es el turismo y por qué es importante?
+          p.mb-4 Se invita a ir al siguiente video:
 
           .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/tema2/12.svg")
+                img(src="@/assets/curso/tema2/video.svg")
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
@@ -192,7 +191,7 @@
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=7e3Zht_Hf3E" target="_blank")
                       span Ir al sitio
-                      i.fas.fa-file-download
+                      i.fas.fa-video
 
 
 

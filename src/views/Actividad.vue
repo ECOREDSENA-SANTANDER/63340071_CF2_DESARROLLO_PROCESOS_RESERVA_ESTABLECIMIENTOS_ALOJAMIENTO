@@ -43,7 +43,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento.',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -66,7 +66,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento.',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -89,7 +89,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -112,7 +112,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -135,7 +135,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -158,7 +158,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -181,7 +181,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -204,7 +204,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -227,7 +227,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -250,7 +250,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de Procesos de Reserva en Establecimientos de Alojamiento. ',
+            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

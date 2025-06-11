@@ -32,13 +32,13 @@
             .row.justify-content-center.align-items-center
               .col-lg-7
                 h4.mb-4 Tarifa neta o de piso
-                p.mb-4 Esta es la tarifa que se asigna a intermediarios como agencias de viaje, bancos de camas y plataformas de #[em marketing], sobre la cual ellos pueden generar su utilidad o #[em markup.]
+                p.mb-4 Esta es la tarifa que se asigna a intermediarios como agencias de viaje, bancos de camas y plataformas de #[em marketing], sobre la cual ellos pueden generar su utilidad o #[em #[b markup]].
               .col-lg-4.col-md-7.col-10.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema4/3.png')
             .row.justify-content-center.align-items-center
               .col-lg-7
                 h4.mb-4 Tarifa confirmada
-                p.mb-4 Es la tarifa que se le informa al cliente al momento de la reserva. Si al llegar el huésped no hay disponible una habitación acorde a la tarifa confirmada, se suele dar otra de mejor categoría por el mismo precio, lo que significa hacer un #[em upgrade.]
+                p.mb-4 Es la tarifa que se le informa al cliente al momento de la reserva. Si al llegar el huésped no hay disponible una habitación acorde a la tarifa confirmada, se suele dar otra de mejor categoría por el mismo precio, lo que significa hacer un #[em #[b upgrade.]]
               .col-lg-4.col-md-7.col-10.mb-4
                 img.img-a.img-t(src='@/assets/curso/tema4/4.png')
             .row.justify-content-center.align-items-center
@@ -92,10 +92,142 @@
         .titulo-sexto.color-secundario.mb-2
           h5 Tabla 2. 
           | Ejemplo de tarifa de hotel
-    .row.justify-content-center.align-items-center
+    
+    .row.justify-content-center(data-aos="zoom-in-left")
       .col-lg-10
-        img.mb-0(src='@/assets/curso/tema4/12.svg', alt='Tabla de ejemplo que muestra tarifas públicas de un hotel en pesos colombianos. Incluye los precios por tipo de habitación (Estándar, Deluxe, Junior Suite y Suite). También presenta variaciones según temporadas. La sugerencia es tener hasta 12 niveles tarifarios, promociones y tarifas descontadas.')
+        .tabla-a.tabla-mod
+          table(alt='Tabla de ejemplo que muestra tarifas públicas de un hotel en pesos colombianos. Incluye los precios por tipo de habitación (Estándar, Deluxe, Junior Suite y Suite). También presenta variaciones según temporadas. La sugerencia es tener hasta 12 niveles tarifarios, promociones y tarifas descontadas.')  
+            thead
+              th(colspan="6") 
+                .row
+                  .col-lg             
+                    h4.mb-2 Estructura tarifas públicas hotel - ejemplo
+                    h4.mb-0 Tarifas en pesos colombianos (COP)
+            tbody
+              tr
+                td.iz(data-aos="fade-left").bt1 Precio base estándar de habitación $299.000
+                td.text-center(data-aos="fade-right") Variación por tipo habitación
+                td.text-center(data-aos="fade-left").bt2 ESTÁNDAR
+                td.text-center(data-aos="fade-right").bt2 #[em DELUXE]
+                td.text-center(data-aos="fade-left").bt2 #[em JUNIOR SUITE]
+                td.text-center(data-aos="fade-right").bt2 #[em SUITE]
+              tr
+                td.iz(data-aos="fade-left")(rowspan="2").bt3 Persona adicional $30.000
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") $0
+                td.text-center(data-aos="fade-right") $30.000
+                td.text-center(data-aos="fade-left") $50.000
+                td.text-center(data-aos="fade-right") $100.000
+              tr.bt4
+                td(data-aos="fade-left") Nivel
+                td.text-center(data-aos="fade-right") 2 PAX
+                td.text-center(data-aos="fade-left") 2 PAX
+                td.text-center(data-aos="fade-right") 2 PAX
+                td.text-center(data-aos="fade-left") 2 PAX
+              tr
+                td.iz(data-aos="fade-left") #[em Rack rate] 100 %
+                td.text-center(data-aos="fade-right") #[em Rack]
+                td.text-center(data-aos="fade-left") $299.000
+                td.text-center(data-aos="fade-right") $329.000
+                td.text-center(data-aos="fade-left") $349.000
+                td.text-center(data-aos="fade-left") $399.000
+              tr
+                td.iz(data-aos="fade-left")
+                  .row
+                    .col-lg
+                      p.mb-0 #[em High season] 
+                      p.mb-0 (71 % - 99 %)
+                td.text-center(data-aos="fade-right") A
+                td.text-center(data-aos="fade-left") $279.000
+                td.text-center(data-aos="fade-right") $309.000
+                td.text-center(data-aos="fade-left") $329.000
+                td.text-center(data-aos="fade-left") $379.000
+              tr
+                td.iz(data-aos="fade-left")
+                  .row
+                    .col-lg
+                      p.mb-0 #[em Mid season] 
+                      p.mb-0 (31 % - 70 %)
+                td.text-center(data-aos="fade-right") B
+                td.text-center(data-aos="fade-left") $259.000
+                td.text-center(data-aos="fade-right") $289.000
+                td.text-center(data-aos="fade-left") $309.000
+                td.text-center(data-aos="fade-left") $359.000
 
+              tr
+                td.iz(data-aos="fade-left") 
+                  .row
+                    .col-lg
+                      p.mb-0 #[em Low season] 
+                      p.mb-0 (0 % - 30 %)
+                td.text-center(data-aos="fade-right") C
+                td.text-center(data-aos="fade-left") $239.000
+                td.text-center(data-aos="fade-right") $269.000
+                td.text-center(data-aos="fade-left") $289.000
+                td.text-center(data-aos="fade-left") $339.000
+              tr.bt5
+                td.text-center(data-aos="fade-left")(colspan="6") #[b La sugerencia es tener hasta 12 niveles tarifarios (con base en el movimiento y mercado del hotel).]
+              tr
+                td.iz(data-aos="fade-left") Corporativo y planes
+                td.text-center(data-aos="fade-right") A
+                td.text-center(data-aos="fade-left") $169.000
+                td.text-center(data-aos="fade-right") $199.000
+                td.text-center(data-aos="fade-left") $229.000
+                td.text-center(data-aos="fade-left") $259.000
+              tr
+                td.iz(data-aos="fade-left") Corporativo y planes #[em long stay]
+                td.text-center(data-aos="fade-right") B
+                td.text-center(data-aos="fade-left") $149.000
+                td.text-center(data-aos="fade-right") $179.000
+                td.text-center(data-aos="fade-left") $209.000
+                td.text-center(data-aos="fade-left") $239.000
+              tr
+                td(data-aos="fade-left") 
+                td(data-aos="fade-right")(colspan="5").bt5 #[b Promociones y tarifas descontadas]
+              tr
+                td.iz(data-aos="fade-left") Valor base de BAR para calcular los descuentos
+                td.text-center(data-aos="fade-right") B
+                td.text-center(data-aos="fade-left") $259.000
+                td.text-center(data-aos="fade-right") $289.000
+                td.text-center(data-aos="fade-left") $309.000
+                td.text-center(data-aos="fade-left") $359.000
+              tr
+                td(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right").bt1 Descuento
+                td.text-center(data-aos="fade-left").bt1 ESTÁNDAR
+                td.text-center(data-aos="fade-right").bt1 #[em DELUXE]
+                td.text-center(data-aos="fade-left").bt1 #[em JUNIOR SUITE]
+                td.text-center(data-aos="fade-left").bt1 #[em SUITE]
+              tr
+                td.iz(data-aos="fade-left") No reembolsable
+                td.text-center(data-aos="fade-right") 35 %
+                td.text-center(data-aos="fade-left") $168.350
+                td.text-center(data-aos="fade-right") $187.850
+                td.text-center(data-aos="fade-left") $200.850
+                td.text-center(data-aos="fade-left") $233.350
+              tr
+                td.iz(data-aos="fade-left") (de 0 a 29 días)
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-left") 
+              tr
+                td.iz(data-aos="fade-left") Promoción compra anticipada +30 (más de 30 días anticipación)
+                td.text-center(data-aos="fade-right") 25 %
+                td.text-center(data-aos="fade-left") $194.250
+                td.text-center(data-aos="fade-right") $216.750
+                td.text-center(data-aos="fade-left") $231.750
+                td.text-center(data-aos="fade-left") $269.250
+              tr
+                td.iz(data-aos="fade-left") Promoción #[em long stay] 4+ (más de 5 días consecutivos)
+                td.text-center(data-aos="fade-right") 40 %
+                td.text-center(data-aos="fade-left") $155.400
+                td.text-center(data-aos="fade-right") $173.400
+                td.text-center(data-aos="fade-left") $185.400
+                td.text-center(data-aos="fade-left") $215.400
+
+   
 </template>
 
 <script>

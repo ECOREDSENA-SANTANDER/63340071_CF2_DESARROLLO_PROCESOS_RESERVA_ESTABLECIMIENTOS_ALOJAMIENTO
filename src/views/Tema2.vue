@@ -26,10 +26,11 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-lg-5.mb-3
+    #t_2_1.titulo-segundo.mb-4
       h2 2.1 Tipos de reservas
 
-    
+    p.mb-4 Los siguientes son los tipos de reserva que se pueden presentar:
+
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-3.col-md-5.col-8.mb-4
         img.d-none.d-lg-block(src='@/assets/curso/tema2/3.png', alt='')
@@ -82,13 +83,13 @@
           
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12
-        .titulo-sexto.color-secundario.mb-2
+        .titulo-sexto.color-secundario.mb-0
           h5 Figura 1. 
           | Ejemplo de formato manual para el #[em planning] de habitaciones o #[em chart] 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         img.mb-2(src='@/assets/curso/tema2/6.svg', alt='El formato planning por número de habitaciones permite llevar un control visual y ordenado de la ocupación diaria de cada habitación durante el mes. Cada fila representa una habitación y cada columna un día del mes.')
-        figcaption Fuente: http://yise1994.blogspot.com/2017/05/ano-del-buen-servicio-al-ciudadano.html.
+        figcaption Fuente: http://yise1994.blogspot.com/2017/05/ano-del-buen-servicio-al-ciudadano.html
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12
@@ -121,14 +122,14 @@
           img.mb-0.d-none.d-lg-block.img-t(src='@/assets/curso/tema2/11.svg' alt="")
         .col-lg-11
           p.mb-4 Se trabajan con colores para que con una vista se pueda ver el estado de ocupación del hotel.
-          h5.mb-0.pri Por ejemplo, azul para las reservas tentativas, rojos para las confirmadas, o verde para las que se desocupan. Se realiza de acuerdo el criterio y la comodidad quien las usa. 
+          p.mb-0.pri Por ejemplo, azul para las reservas tentativas, rojos para las confirmadas, o verde para las que se desocupan. Se realiza de acuerdo el criterio y la comodidad quien las usa. 
 
     p.mb-4 Como ejemplo los invito a revisar el siguiente video: 
 
     .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/12.svg")
+          img(src="@/assets/curso/tema2/video.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -137,7 +138,7 @@
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uVBlwXI9RGQ" target="_blank")
                 span Ir al sitio 
-                i.fas.fa-file-download
+                i.fas.fa-video
 
 
     separador
@@ -191,16 +192,6 @@
                 p.mb-0 Las tarifas se aplican conforme a políticas establecidas.  
       .col-lg-5
         img.d-none.d-lg-block(src="@/assets/curso/tema2/13.svg")
-    
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-4
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/14.png")
-      .col-lg-8
-        .bg1.p-lg-5.p-4
-          h5.mb-4.my-2 Se invita a revisar la norma NTSH-003.Establecimientos de alojamiento y hospedaje. Norma de competencia laboral. Prestación de servicios de recepción y reservas. En el numeral 4.3. Requisitos para reservar habitaciones conforme al manual de procedimientos.
-          h5.mb-4.pri Norma Técnica Sectorial Colombiana NTSH 003. Establecimientos de alojamiento y hospedaje. Norma de competencia laboral. Prestación de servicio de recepción y reservas conforme a manuales existentes, 2003. 
-          .bg5.p-2.mb-2
-            h4.mb-0 Tomado de la pág. Ministerio de comercio, industria y turismo. 
 
     .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
@@ -235,7 +226,7 @@
                   .col-lg-8
                     h4.mb-4 Depósitos
                     p.mb-4 Son las reservaciones en las cuáles el huésped garantiza su llegada mediante el pago de una cantidad de dinero que generalmente es el precio de la habitación que él desea; sin embargo, si por alguna circunstancia el huésped no llega #[em (no show)], se abre una cuenta aplicándole el depósito.
-                    h4.pri.mb-0 Las habitaciones que sean pagadas por una agencia de viajes (cupón de agencias), también entran en el grupo de depósitos, al igual que las reservaciones que están garantizadas por medio de una carta de una empresa que se hace responsable de la cuenta del huésped (Báez, 2009).
+                    p.pri.mb-0 Las habitaciones que sean pagadas por una agencia de viajes (cupón de agencias), también entran en el grupo de depósitos, al igual que las reservaciones que están garantizadas por medio de una carta de una empresa que se hace responsable de la cuenta del huésped (Báez, 2009).
                   .col-lg-4
                     img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/15.png', alt='')
               .tarjeta.colorac.p-4(titulo="Límites")
@@ -402,7 +393,7 @@
         p.mb-4 Con esta información se procederá hacer el pre-registro; así el huésped al llegar solo registrará su firma o algún otro dato faltante. En el manejo de cuentas es importante solicitar un respaldo para cargos extras y/o en caso de tener una cuenta maestra, conocer muy bien la firma de la persona autorizada.
         br
         br
-        h5.mb-0.pri Para la salida del grupo se deben revisar los siguientes aspectos como: pago de cuentas, entrega de llaves, revisión de habitaciones y reportar alguna novedad en caso de presentarse (Báez, 2009).  
+        p.mb-0.pri Para la salida del grupo se deben revisar los siguientes aspectos como: pago de cuentas, entrega de llaves, revisión de habitaciones y reportar alguna novedad en caso de presentarse (Báez, 2009).  
     
     .bg7.p-2.mb-4
       h3.mb-0.ps-4.pe-4 #[em No show]
@@ -441,7 +432,7 @@
     .bg7.p-2.mb-4(data-aos="fade-left")
       h3.mb-0.ps-3.pe-3.ps-lg-4.pe-lg-4 Asignación de habitaciones
 
-    h5.mb-4(data-aos="fade-right") Una buena asignación al cliente se ahorra tiempo y trabajo, ya que se evitarán cambios de habitaciones y el cliente se sentirá más satisfecho (Báez, 2009). 
+    p.mb-4(data-aos="fade-right") Una buena asignación al cliente se ahorra tiempo y trabajo, ya que se evitarán cambios de habitaciones y el cliente se sentirá más satisfecho (Báez, 2009). 
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -530,9 +521,93 @@
         .titulo-sexto.color-secundario.mb-2
           h5 Tabla 1. 
           | Ejemplo de formato de #[em rooming list] manual 
-    .row.justify-content-center.align-items-center
-      .col-lg-9
-        img.mb-5(src='@/assets/curso/tema2/42.svg', alt='Este ejemplo de tabla organiza la información de los huéspedes de un grupo. Incluye columnas para: • Número de habitación • Fechas de ingreso y salida • Nombre y apellido del huésped • Número de personas (pax) • Plan de alimentación • Observaciones • Nombre del guía o responsable del grupo • Confirmación de ingreso al hotel. Se usa para coordinar la llegada y estancia de grupos en el hotel.')
+    
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-10
+        .tabla-a.tabla-mod1
+          table(alt='Este ejemplo de tabla organiza la información de los huéspedes de un grupo. Incluye columnas para: • Número de habitación • Fechas de ingreso y salida • Nombre y apellido del huésped • Número de personas (pax) • Plan de alimentación • Observaciones • Nombre del guía o responsable del grupo • Confirmación de ingreso al hotel. Se usa para coordinar la llegada y estancia de grupos en el hotel.')
+            thead.t1
+              th(colspan="10") #[b Ejemplo plantilla #[em rooming list] para hotel.]
+            tbody
+              tr.bt5
+                td.text-center(data-aos="fade-left") Número de habitaciones
+                td.text-center(data-aos="fade-right") Fecha de ingreso
+                td.text-center(data-aos="fade-left") Fecha de salida
+                td.text-center(data-aos="fade-right") Nombre
+                td.text-center(data-aos="fade-left") Apellido
+                td.text-center(data-aos="fade-right") Número de PAX
+                td.text-center(data-aos="fade-left") Plan de alimentación
+                td.text-center(data-aos="fade-right") Observaciones
+                td.text-center(data-aos="fade-left") #[em Tour conductor] (resp. grupo)
+                td.text-center(data-aos="fade-right") Ingresó
+              tr
+                td.text-center(data-aos="fade-left") &nbsp
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+              tr
+                td.text-center(data-aos="fade-left") &nbsp
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+              tr
+                td.text-center(data-aos="fade-left") &nbsp
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+              tr
+                td.text-center(data-aos="fade-left") &nbsp
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+              tr
+                td.text-center(data-aos="fade-left") &nbsp
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+              tr
+                td.text-center(data-aos="fade-left") &nbsp
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 
+                td.text-center(data-aos="fade-right")
+    
+  
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -549,21 +624,22 @@
       .row.justify-content-center.align-items-center
         .col-lg-12
           p.mb-2 Se invita a ir al siguiente video como ejemplo de #[em rooming list] sistematizado
-          h5.mb-4.pri Nombre: #[em rooming list] en reservas de grupo
+          p.mb-4.pri Nombre: #[em rooming list] en reservas de grupo
 
           .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/tema2/12.svg")
+                img(src="@/assets/curso/tema2/video.svg")
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h4.mb-2 #[em Ulyses Cloud | Rooming list] en reservas de grupo.
-                    p.mb-0 Lo invitamos a visitar el siguiente video, donde aprenderás a construir la #[em rooming list] en tus reservas de grupo en el #[em software] hotelero #[em Ulyses Cloud.] 
+                    p.mb-0 Lo invitamos a visitar el siguiente video, donde aprenderá a construir la #[em rooming list] en tus reservas de grupo en el #[em software] hotelero #[em Ulyses Cloud.] 
+                  
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=wG3QboXEX4g" target="_blank")
                       span Ir al sitio
-                      i.fas.fa-file-download
+                      i.fas.fa-video
 
     .bg7.p-2.mb-5(data-aos="fade-left")
       h3.mb-0.ps-4.pe-4 Procedimientos técnicos  
@@ -661,8 +737,8 @@
       .row.justify-content-center.align-items-center
         .col-lg-12
           p.mb-4 Por lo anterior se invita a ir al siguiente enlace donde encontrará un diccionario con vocabulario técnico hotelero y turístico relacionado.
-          h5.mb-3.pri Tomado de la pag.
-          h5.mb-4.pri Marrero, M. (2016). Glosario de términos hoteleros, turísticos y relacionados. #[em España: Copyright. Obtenido de https://www. hosteltur. com/files/web/templates/term/wikitur. pdf.]
+          p.mb-3.pri Tomado de la pag.
+          p.mb-4.pri Marrero, M. (2016). Glosario de términos hoteleros, turísticos y relacionados. #[em España: Copyright. Obtenido de https://www. hosteltur. com/files/web/templates/term/wikitur. pdf.]
 
           .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
             .row.justify-content-around.align-items-center
@@ -672,7 +748,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h4.mb-2 Glosario de términos hoteleros, turísticos y relacionados.
-                    p.mb-0 Lo invitamos a visitar el siguiente PDF, donde aprenderás términos acordes al sector hotelero y turístico.
+                    p.mb-0 Lo invitamos a visitar el siguiente PDF, donde aprenderá términos acordes al sector hotelero y turístico.
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.hosteltur.com/files/web/templates/term/wikitur.pdf" target="_blank")
                       span Descargar

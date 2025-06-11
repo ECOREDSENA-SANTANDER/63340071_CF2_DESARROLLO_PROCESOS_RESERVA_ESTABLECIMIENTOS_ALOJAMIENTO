@@ -163,7 +163,7 @@ export default {
     {
       tema: 'Políticas.',
       referencia:
-        'Jacidi. (2024). Ficha de Registro de Huéspedes en un Hotel. eRoom Suite: Sistema Omnicanal de Comunicación Hotelera.',
+        'Jacidi. (2024). Ficha de Registro de Huéspedes en un Hotel. <em>eRoom Suite:</em> Sistema <em>Omnicanal</em> de Comunicación Hotelera.',
       tipo: 'Blog',
       link: 'https://www.eroomsuite.com/ficha-registro-huespedes-hotel/',
     },
@@ -192,7 +192,7 @@ export default {
     {
       termino: 'Chatbots',
       significado:
-        '<em>Software</em> basado en inteligencia artificial capaz de mantener una conversación en tiempo real por texto o por voz.',
+        '<em>software</em> basado en inteligencia artificial capaz de mantener una conversación en tiempo real por texto o por voz.',
     },
     {
       termino: '<em>Check-in</em>',
@@ -224,7 +224,7 @@ export default {
       significado: 'Pasajero, cliente o huésped.',
     },
     {
-      termino: '<em>Penalización</em>',
+      termino: 'Penalización',
       significado:
         'Tarifa que un hotel cobra a un huésped que cancela su reserva después de un plazo establecido.',
     },
@@ -353,8 +353,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Yineth González Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
