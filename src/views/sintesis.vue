@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.png", alt='Esta síntesis, titulada "Tu reserva... nuestra prioridad", desglosa los elementos de la gestión de reservas hoteleras. El diagrama se divide en seis áreas principales: disponibilidad hotelera, el proceso de reservas, las políticas, las tarifas, el contrato y los servicios turísticos. En conjunto, el esquema presenta los componentes esenciales para priorizar y manejar eficientemente la reserva de un huésped.')
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
