@@ -1,1 +1,1 @@
-module.exports = 'Tu reserva… nuestra prioridad'
+module.exports = 'Tu reserva, nuestra prioridad'

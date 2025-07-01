@@ -40,7 +40,7 @@
                     p.mb-0 El servicio turístico está directamente mandado a satisfacer la corriente turística, la cual comprende personas con fines turísticos que se desplazan de un lugar a otro, constituyendo un caudal continuo con características especiales para la realización de actividades ajenas a la rutina, para así satisfacer la demanda turística en cualquier ámbito hotelero o no hotelero (Antonietti, 2017). 
 
     .bg7.p-2.mb-5(data-aos="fade-left")
-      h3.mb-0.ps-4.pe-4 Como servicios turísticos encontramos
+      h3.mb-0.ps-4.pe-4 Como servicios turísticos se encuentran
 
     .row.fondo3.p-3.p-lg-4.p-md-3.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -52,21 +52,21 @@
                 img.img-a.img-t(src='@/assets/curso/tema6/5.svg' alt='')          
               .tarjeta.color-primario.t6
                 .p-4
-                  h5.mb-0.text-white Transporte.
+                  h5.mb-0.text-white Transporte
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img.img-a.img-t(src='@/assets/curso/tema6/6.svg' alt='')          
               .tarjeta.color-primario.t6
                 .p-4
-                  h5.mb-0.text-white Alojamiento.
+                  h5.mb-0.text-white Alojamiento
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img.wid
                 img.img-a.img-t(src='@/assets/curso/tema6/7.svg' alt='')          
               .tarjeta.color-primario.t6
                 .p-4
-                  h5.mb-0.text-white Alimentación.
+                  h5.mb-0.text-white Alimentación
         
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
           .col-lg-3.col-md-6
@@ -75,14 +75,14 @@
                 img.img-a.img-t(src='@/assets/curso/tema6/8.svg' alt='')          
               .tarjeta.color-primario.t6
                 .p-3
-                  h5.mb-0.text-white.my-0 Atractivos turísticos.
+                  h5.mb-0.text-white.my-0 Atractivos turísticos
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-lg-2.mb-4
               .tarjeta-avatar-b__img
                 img.img-a.img-t(src='@/assets/curso/tema6/9.svg' alt='')          
               .tarjeta.color-primario.t6
                 .p-3
-                  h5.mb-0.text-white Servicios complementarios.
+                  h5.mb-0.text-white Servicios complementarios
           
     .bg7.p-2.mb-4
       h3.mb-0.ps-4.pe-4 Producto turístico
@@ -105,25 +105,25 @@
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Sitios naturales.
+                        p.mb-0 Sitios naturales
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Manifestaciones culturales.
+                        p.mb-0 Manifestaciones culturales
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Museos.
+                        p.mb-0 Museos
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Folclor.
+                        p.mb-0 Folclor
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Eventos.
+                        p.mb-0 Eventos
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Monumentos.
+                        p.mb-0 Monumentos
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Artesanías.
+                        p.mb-0 Artesanías
                   .col-lg-4
                     img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema6/2.png', alt='')
               .tarjeta.colorac.p-4(titulo="Servicios turísticos o planta turística")
@@ -131,23 +131,23 @@
                   .col-lg-8
                     h4.mb-4 Servicios turísticos o planta turística
                     p.mb-4 Son el conjunto de medios y actividades que facilitan la estancia y el bienestar del viajero, convergiendo en ellos elementos tangibles e intangibles, los cuales son en su etapa final de consumo, interdependientes (Instituto Distrital de Turismo IDT y ANATO Asociación Colombiana de Agencias de Viajes y Turismo, 2007).  
-                    p.mb-4 Entre ellos encontramos:
+                    p.mb-4 Entre ellos se encuentran:  
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Alojamiento.
+                        p.mb-0 Alojamiento
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Restauración (alimentación).
+                        p.mb-0 Restauración (alimentación)
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Esparcimiento.
+                        p.mb-0 Esparcimiento
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Guías.
+                        p.mb-0 Guías
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Información turística.
+                        p.mb-0 Información turística
                   .col-lg-4
                     img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema6/3.png', alt='')
               .tarjeta.colorac.p-4(titulo="Accesibilidad")
@@ -155,20 +155,20 @@
                   .col-lg-8
                     h4.mb-4 Accesibilidad
                     p.mb-4 La accesibilidad en el diseño de producto hace relación solamente a las vías de comunicación que se dispone para acceder al destino y a cada uno de los lugares de interés.
-                    p.mb-4 Entre estos están:
+                    p.mb-4 A continuación, se mencionan algunos: 
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Transporte.
+                        p.mb-0 Transporte
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Comunicación.
+                        p.mb-0 Comunicación
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Esparcimiento.
+                        p.mb-0 Esparcimiento
                       li.d-flex.mb-0
                         i.fas.fa-circle-check
-                        p.mb-0 Servicios públicos.
+                        p.mb-0 Servicios públicos
                   .col-lg-4
                     img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema6/4.png', alt='')
               
@@ -177,7 +177,6 @@
       .row.justify-content-center.align-items-center
         .col-lg-12
           p.mb-4 Dentro de un proceso de reserva, es importante tener claridad de los sitios de interés para el turista que se encuentren cerca del establecimiento de alojamiento, actividades lúdicas, manifestaciones culturales, eventos, sitios naturales, que el turista pueda aprovechar dentro o fuera del establecimiento mientras su estadía, con el fin de que pueda aprovechar su tiempo libre, se lleve una buena experiencia y vuelva al establecimiento.  
-          p.mb-4 Se invita a ir al siguiente video:
 
           .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
             .row.justify-content-around.align-items-center
@@ -187,7 +186,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h4.mb-2 ¿Qué es el turismo y por qué es importante?
-                    p.mb-0 Lo invitamos a visitar el siguiente video, donde nos explicarán sobre una de las actividades más importantes de un país: el turismo. 
+                    p.mb-0 Se invita a consultar el siguiente video, el cual aborda una de las actividades más importantes de un país: el turismo.
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=7e3Zht_Hf3E" target="_blank")
                       span Ir al sitio

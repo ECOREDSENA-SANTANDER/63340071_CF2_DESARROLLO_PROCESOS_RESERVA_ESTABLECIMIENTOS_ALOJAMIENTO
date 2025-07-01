@@ -28,17 +28,17 @@
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 #[b Fechas de la estancia:] Llegada y salida.
+                p.mb-0 #[b Fechas de la estancia:] llegada y salida.
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 #[b Tipo de alojamiento:] Habitación, suite, etc.
+                p.mb-0 #[b Tipo de alojamiento:] habitación, suite, etc.
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 #[b Servicios incluidos:] Desayuno, limpieza, etc.
+                p.mb-0 #[b Servicios incluidos:] desayuno, limpieza, etc.
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
@@ -62,22 +62,22 @@
                 ul.lista-ul.mb-0
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Identificación de las partes: Nombres y datos de contacto del establecimiento y del cliente.
+                    p.mb-0 Identificación de las partes: nombres y datos de contacto del establecimiento y del cliente.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Descripción del servicio: Detalles del alojamiento y servicios ofrecidos.
+                    p.mb-0 Descripción del servicio: detalles del alojamiento y servicios ofrecidos.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Precio y condiciones de pago: Monto total, depósito, plazos, etc.
+                    p.mb-0 Precio y condiciones de pago: monto total, depósito, plazos, etc.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Política de cancelación: Condiciones y cargos por cancelación o modificación.
+                    p.mb-0 Política de cancelación: condiciones y cargos por cancelación o modificación.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Duración de la estancia: Fechas de llegada y salida.
+                    p.mb-0 Duración de la estancia: fechas de llegada y salida.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Condiciones adicionales: Normas del establecimiento, políticas de mascotas, etc.
+                    p.mb-0 Condiciones adicionales: normas del establecimiento, políticas de mascotas, etc.
               .col-lg-4.col-md-7.col-10.ps-lg-0
                 figure
                   img.d-none.d-lg-block(src='@/assets/curso/tema5/5.svg', alt='Texto que describa la imagen')

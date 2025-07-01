@@ -54,7 +54,7 @@
       .bloque-texto-g__texto.p-lg-5.p-4.my-lg-5.my-2
         p.mb-0 La política de cancelación de las reservas de hotel, pueden depender de varios factores, como la tarifa de reserva o la fecha #[em #[b check-in.]] Los establecimientos de alojamiento definen sus políticas.
     
-    p.mb-4 Entre las políticas de cancelación encontramos las siguientes:
+    p.mb-4 Entre las políticas de cancelación se encuentran las siguientes:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-md-5.col-8.mb-4

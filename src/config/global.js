@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Tu reserva… nuestra prioridad',
+    Name: 'Tu reserva, nuestra prioridad',
     Description:
       'El objetivo principal de este componente es dar a conocer una guía de apoyo en donde encontrará el proceso para realizar una reserva en un establecimiento de alojamiento; igualmente identificar los tipos de reserva que se pueden presentar, los formatos utilizados en este proceso, las políticas, tarifas hoteleras y servicios turísticos que se requieren para ofrecer a un cliente una experiencia positiva en el servicio.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -161,14 +161,14 @@ export default {
   },
   complementario: [
     {
-      tema: 'Políticas.',
+      tema: 'Políticas',
       referencia:
         'Jacidi. (2024). Ficha de Registro de Huéspedes en un Hotel. <em>eRoom Suite:</em> Sistema <em>Omnicanal</em> de Comunicación Hotelera.',
       tipo: 'Blog',
       link: 'https://www.eroomsuite.com/ficha-registro-huespedes-hotel/',
     },
     {
-      tema: 'Reservas.',
+      tema: 'Reservas',
       referencia:
         'VIDEOTECA SECAP. (2015, 25 mayo). Proceso de reservas paso a paso [Vídeo]. YouTube.',
       tipo: 'Video',
@@ -185,7 +185,7 @@ export default {
       significado: 'Tarifa disponible.',
     },
     {
-      termino: 'Conserjeria',
+      termino: 'Conserjería',
       significado:
         'Departamento ubicado en la recepción o próximo a ésta, desde el que se coordinan y proveen los servicios de atención al cliente.',
     },
@@ -247,7 +247,7 @@ export default {
       significado: 'Mejora.',
     },
     {
-      termino: 'VIP <em>(Very Important Person).</em>',
+      termino: 'VIP <em>(Very Important Person)</em>',
       significado: 'Persona muy importante.',
     },
   ],

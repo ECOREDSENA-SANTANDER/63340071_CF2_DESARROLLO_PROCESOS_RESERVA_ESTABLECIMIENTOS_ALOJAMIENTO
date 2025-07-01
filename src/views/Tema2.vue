@@ -88,7 +88,7 @@
           | Ejemplo de formato manual para el #[em planning] de habitaciones o #[em chart] 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        img.mb-2(src='@/assets/curso/tema2/6.svg', alt='El formato planning por número de habitaciones permite llevar un control visual y ordenado de la ocupación diaria de cada habitación durante el mes. Cada fila representa una habitación y cada columna un día del mes.')
+        img.mb-2(src='@/assets/curso/tema2/6.png', alt='El formato planning por número de habitaciones permite llevar un control visual y ordenado de la ocupación diaria de cada habitación durante el mes. Cada fila representa una habitación y cada columna un día del mes.')
         figcaption Fuente: http://yise1994.blogspot.com/2017/05/ano-del-buen-servicio-al-ciudadano.html
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
@@ -98,7 +98,7 @@
           | Ejemplo de formato manual de #[em planning] de habitaciones ocupadas y reservadas 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
-        img.mb-2(src='@/assets/curso/tema2/7.svg', alt='El formato manual representa las habitaciones ocupadas con una marca o señal específica que indica que ya están siendo utilizadas, mientras que las habitaciones reservadas garantizadas se identifican con otra marca que señala que ya se ha recibido un pago o garantía. Si se registra una reserva que aún no ha sido garantizada, esta puede anotarse con lápiz, de modo que, si el cliente no confirma la reserva dentro del tiempo establecido, se pueda borrar y liberar la habitación para volver a ponerla a la venta en esa fecha.')
+        img.mb-2(src='@/assets/curso/tema2/7.jpg', alt='El formato manual representa las habitaciones ocupadas con una marca o señal específica que indica que ya están siendo utilizadas, mientras que las habitaciones reservadas garantizadas se identifican con otra marca que señala que ya se ha recibido un pago o garantía. Si se registra una reserva que aún no ha sido garantizada, esta puede anotarse con lápiz, de modo que, si el cliente no confirma la reserva dentro del tiempo establecido, se pueda borrar y liberar la habitación para volver a ponerla a la venta en esa fecha.')
         figcaption Fuente: https://slideplayer.es/slide/1032953/ 
 
     .tit.p-2.mb-lg-5.mb-4(data-aos="fade-left")
@@ -113,7 +113,7 @@
           .col-lg-2
             img.mb-0.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/9.svg' alt="")
           .col-lg-10
-            p.mb-0 En estos #[em software], tanto uno como otro, se encuentra la pantalla de reservas, pantalla de caja, de restaurante, de #[em stock] de insumos, de administración. A la pantalla de reservas tendrán acceso las personas encargadas del sector, recepción/conserjería, caja, administración y la gerencia.
+            p.mb-0 En estos #[em softwares], tanto uno como otro, se encuentra la pantalla de reservas, pantalla de caja, de restaurante, de #[em stock] de insumos, de administración. A la pantalla de reservas tendrán acceso las personas encargadas del sector, recepción/conserjería, caja, administración y la gerencia.
         img.mb-0.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg' alt="")
         
     .bg1.p-4.mb-4(data-aos="fade-left")
@@ -134,7 +134,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2 Admintour - ¿Cómo se usa el #[em plannig] de habitaciones?
-              p.mb-0 Lo invitamos a visitar el siguiente video, donde podrá conocer el funcionamiento del #[em planning] de habitaciones 
+              p.mb-0 Donde podrá conocer el funcionamiento del #[em planning] de habitaciones.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uVBlwXI9RGQ" target="_blank")
                 span Ir al sitio 
@@ -201,7 +201,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2 Norma Técnica Colombiana NTSH 003 de 2003.
-              p.mb-0 Lo invitamos a visitar el siguiente PDF, donde aprenderá los requisitos para ofrecer productos y servicios, dando respuesta al cliente, realizar #[em check-in] y #[em check-out] de huéspedes y reservar habitaciones de acuerdo con procedimientos definidos en los establecimientos de alojamiento y hospedaje.
+              p.mb-0 Se invita a consultar el siguiente PDF, para conocer los requisitos y ofrecer productos, servicios, dar respuesta al cliente, realizar los procesos de #[em check-in y check-out] de huéspedes y reserva de habitaciones de acuerdo con procedimientos definidos en los establecimientos de alojamiento y hospedaje. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/calidad-turistica/normas-tecnicas-sectoriales/nts-alojamiento-y-hospedaje-1/norma-tecnica-sectorial-colombiana-ntsh-003-establ/norma-tecnica-sectorial-colombiana-ntsh-003.pdf.aspx" target="_blank")
                 span Descargar
@@ -264,28 +264,28 @@
                 img(src='@/assets/curso/tema2/19.svg' alt='')          
               .tarjeta.color-primario
                 .p-3
-                  h5.mb-0.text-white.my-1.lp Agentes de viajes.
+                  h5.mb-0.text-white.my-1.lp Agentes de viajes
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema2/20.svg' alt='')          
               .tarjeta.color-primario
                 .p-3
-                  h5.mb-0.text-white.lp Dueños de medios de difusión.
+                  h5.mb-0.text-white.lp Dueños de medios de difusión
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img.wid
                 img(src='@/assets/curso/tema2/21.svg' alt='')          
               .tarjeta.color-primario
                 .p-2
-                  h5.mb-0.text-white.mx-1.my-1.lp Organizadores de convenciones futuras.
+                  h5.mb-0.text-white.mx-1.my-1.lp Organizadores de convenciones futuras
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema2/22.svg' alt='')          
               .tarjeta.color-primario
                 .p-3
-                  h5.mb-0.text-white.lp Dueños de líneas aéreas.
+                  h5.mb-0.text-white.lp Dueños de líneas aéreas
         
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-3.col-md-6
@@ -294,21 +294,21 @@
                 img(src='@/assets/curso/tema2/23.svg' alt='')          
               .tarjeta.color-primario
                 .p-2
-                  h5.mb-0.text-white.mx-1.lp Funcionarios gubernamentales importantes.
+                  h5.mb-0.text-white.mx-1.lp Funcionarios gubernamentales importantes
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-lg-2.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema2/24.svg' alt='')          
               .tarjeta.color-primario
                 .p-3
-                  h5.mb-0.text-white.my-1.lp Deportistas.
+                  h5.mb-0.text-white.my-1.lp Deportistas
           .col-lg-3.col-md-6
             .tarjeta-avatar-b.mb-lg-2.mb-4
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema2/25.svg' alt='')          
               .tarjeta.color-primario
                 .p-3
-                  h5.mb-0.text-white.my-1.lp Artistas.
+                  h5.mb-0.text-white.my-1.lp Artistas
 
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
@@ -336,53 +336,53 @@
                 ul.lista-ul.lista-ul--separador.mb-0
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Nombre del grupo.
+                    p.mb-0 Nombre del grupo
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Fecha de llegada. 
+                    p.mb-0 Fecha de llegada
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Hora de llegada.
+                    p.mb-0 Hora de llegada
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Fecha de salida.
+                    p.mb-0 Fecha de salida
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-md-4.mb-lg-0.mb-4 Hora de salida.
+                    p.mb-md-4.mb-lg-0.mb-4 Hora de salida
               .col-lg-4.o3
                 img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/28.svg' alt='')     
               .col-lg-4.col-md-6.o2
                 ul.lista-ul.lista-ul--separador.mb-0
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Eventos en el hotel.
+                    p.mb-0 Eventos en el hotel
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Manejo de cuentas. 
+                    p.mb-0 Manejo de cuentas
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Pago de las cuentas.
+                    p.mb-0 Pago de las cuentas
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-md-4.mb-lg-0.mb-4 Indicadores especiales. 
+                    p.mb-md-4.mb-lg-0.mb-4 Indicadores especiales
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5
                 ul.lista-ul.lista-ul--separador.mb-0.mx-lg-4
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Número de habitaciones reservadas.
+                    p.mb-0 Número de habitaciones reservadas
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Depósito entregado. 
+                    p.mb-0 Depósito entregado
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Persona responsable o conductor.
+                    p.mb-0 Persona responsable o conductor
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 VIPs en el grupo.
+                    p.mb-0 VIP en el grupo.
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 Programación en toda la estancia.
+                    p.mb-0 Programación en toda la estancia
     
     
     .bloque-texto-g.color-sec.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
@@ -523,90 +523,98 @@
           | Ejemplo de formato de #[em rooming list] manual 
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
-      .col-lg-10
+      .col-lg-12
         .tabla-a.tabla-mod1
           table(alt='Este ejemplo de tabla organiza la información de los huéspedes de un grupo. Incluye columnas para: • Número de habitación • Fechas de ingreso y salida • Nombre y apellido del huésped • Número de personas (pax) • Plan de alimentación • Observaciones • Nombre del guía o responsable del grupo • Confirmación de ingreso al hotel. Se usa para coordinar la llegada y estancia de grupos en el hotel.')
-            thead.t1
-              th(colspan="10") #[b Ejemplo plantilla #[em rooming list] para hotel.]
             tbody
               tr.bt5
                 td.text-center(data-aos="fade-left") Número de habitaciones
-                td.text-center(data-aos="fade-right") Fecha de ingreso
+                td.text-center(data-aos="fade-left") Fecha de ingreso
                 td.text-center(data-aos="fade-left") Fecha de salida
-                td.text-center(data-aos="fade-right") Nombre
+                td.text-center(data-aos="fade-left") Nombre
                 td.text-center(data-aos="fade-left") Apellido
-                td.text-center(data-aos="fade-right") Número de PAX
+                td.text-center(data-aos="fade-left") Número de PAX
                 td.text-center(data-aos="fade-left") Plan de alimentación
-                td.text-center(data-aos="fade-right") Observaciones
+                td.text-center(data-aos="fade-left") Observaciones
                 td.text-center(data-aos="fade-left") #[em Tour conductor] (resp. grupo)
-                td.text-center(data-aos="fade-right") Ingresó
+                td.text-center(data-aos="fade-left") Ingresó
               tr
-                td.text-center(data-aos="fade-left") &nbsp
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 101
+                td.text-center(data-aos="fade-left") 13/05/2024
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") Pedro Pablo
+                td.text-center(data-aos="fade-left") Pérez Pinzón
+                td.text-center(data-aos="fade-left") 2
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
+                td.text-center(data-aos="fade-left") Pareja adulto tercera edad.
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
               tr
-                td.text-center(data-aos="fade-left") &nbsp
-                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 102
+                td.text-center(data-aos="fade-left") 13/05/2024 
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") María Elena
+                td.text-center(data-aos="fade-left") Mantilla Rincón
+                td.text-center(data-aos="fade-left") 4
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
                 td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
               tr
-                td.text-center(data-aos="fade-left") &nbsp
-                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 103
+                td.text-center(data-aos="fade-left") 13/05/2024 
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") Luis
+                td.text-center(data-aos="fade-left") Mendoza Castillo
+                td.text-center(data-aos="fade-left") 4
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
                 td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
               tr
-                td.text-center(data-aos="fade-left") &nbsp
-                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 104
+                td.text-center(data-aos="fade-left") 13/05/2024 
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") Cristian Camilo
+                td.text-center(data-aos="fade-left") Ballesteros Rueda
+                td.text-center(data-aos="fade-left") 4
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
                 td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
               tr
-                td.text-center(data-aos="fade-left") &nbsp
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
+                td.text-center(data-aos="fade-left") 201
+                td.text-center(data-aos="fade-left") 13/05/2024 
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") Edison Andrés
+                td.text-center(data-aos="fade-left") Reyes
+                td.text-center(data-aos="fade-left") 4
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
+                td.text-center(data-aos="fade-left") Una cama cuna para la habitación.
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
               tr
-                td.text-center(data-aos="fade-left") &nbsp
-                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") 202
+                td.text-center(data-aos="fade-left") 13/05/2024 
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") Andrés Pablo
+                td.text-center(data-aos="fade-left") Arango Méndez
+                td.text-center(data-aos="fade-left") 4
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
                 td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
+              tr
+                td.text-center(data-aos="fade-left") 203
+                td.text-center(data-aos="fade-left") 13/05/2024 
+                td.text-center(data-aos="fade-left") 16/05/2024
+                td.text-center(data-aos="fade-left") Piedad
+                td.text-center(data-aos="fade-left") Camacho Prada
+                td.text-center(data-aos="fade-left") 4
+                td.text-center(data-aos="fade-left") Desayuno y almuerzo
                 td.text-center(data-aos="fade-left")
-                td.text-center(data-aos="fade-right") 
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-                td.text-center(data-aos="fade-left") 
-                td.text-center(data-aos="fade-right")
-    
+                td.text-center(data-aos="fade-left") Roberto García
+                td.text-center(data-aos="fade-left") 13/05/2024 
   
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -634,7 +642,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h4.mb-2 #[em Ulyses Cloud | Rooming list] en reservas de grupo.
-                    p.mb-0 Lo invitamos a visitar el siguiente video, donde aprenderá a construir la #[em rooming list] en tus reservas de grupo en el #[em software] hotelero #[em Ulyses Cloud.] 
+                    p.mb-0 Se invita a consultar el siguiente video, donde se explica cómo construir la #[em rooming list] para reservas de grupo en el #[em software] hotelero #[em Ulyses Cloud.]
                   
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=wG3QboXEX4g" target="_blank")
@@ -748,7 +756,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h4.mb-2 Glosario de términos hoteleros, turísticos y relacionados.
-                    p.mb-0 Lo invitamos a visitar el siguiente PDF, donde aprenderá términos acordes al sector hotelero y turístico.
+                    p.mb-0 Se invita a consultar el siguiente PDF, en el cual se exponen términos relevantes del sector hotelero y turístico.
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.hosteltur.com/files/web/templates/term/wikitur.pdf" target="_blank")
                       span Descargar
