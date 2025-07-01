@@ -22,11 +22,11 @@
       #t_1_1.titulo-segundo.mb-lg-5.mb-3
         h2 1.1 #[em Planning] de habitaciones o #[em room rack]
  
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-lg-5.mb-4(data-aos="fade-left")
+      .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4.mb-lg-5.mb-4(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema1/3.png')})`}"
         )
-        .bloque-texto-g__texto.p-lg-5.p-4.my-lg-5.my-2
+        .bloque-texto-g__texto.p-lg-5.p-3.p-md-4
           p.mb-0 Es el panel en el que se representan todas las habitaciones del establecimiento, sirve para controlar permanentemente el estado de cada una (libre, ocupada, bloqueada, sucia, etc.).
           br
           br

@@ -47,11 +47,11 @@
     #t_3_1.titulo-segundo.mb-lg-5.mb-3
       h2 3.1 Política de cancelación del hotel 
 
-    .bloque-texto-g.color-secundario.t3.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+    .bloque-texto-g.color-secundario.t3.p-3.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/5.png')})`}"
       )
-      .bloque-texto-g__texto.p-lg-5.p-4.my-lg-5.my-2
+      .bloque-texto-g__texto.p-lg-5.p-4.my-lg-4.my-2
         p.mb-0 La política de cancelación de las reservas de hotel, pueden depender de varios factores, como la tarifa de reserva o la fecha #[em #[b check-in.]] Los establecimientos de alojamiento definen sus políticas.
     
     p.mb-4 Entre las políticas de cancelación se encuentran las siguientes:

@@ -9,7 +9,7 @@
     
     p.mb-4(data-aos="fade-left") El contrato de hospedaje se probará mediante la tarjeta de registro hotelero, en la cual se identificará el huésped y sus acompañantes quienes responderán solidariamente de sus obligaciones. 
     
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-right") 
+    .bloque-texto-a.color-secundario.p-3.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.com.mb-0.mb-lg-0
           .bloque-texto-a__texto.p-lg-5.p-4.my-lg-5.my-2

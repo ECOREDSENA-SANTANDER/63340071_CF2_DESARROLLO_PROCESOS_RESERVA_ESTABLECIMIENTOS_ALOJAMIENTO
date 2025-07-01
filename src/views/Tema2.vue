@@ -15,7 +15,7 @@
       img(src='@/assets/curso/tema2/sub.png', alt='Imagen decorativa')
       h3.mb-0.mx-4 Objetivo de la gestión de reservas 
     
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-0(data-aos="fade-right") 
+    .bloque-texto-a.color-secundario.p-3.p-md-4.p-lg-5.mb-0(data-aos="fade-right") 
       .row.m-0.align-items-center.justify-content-center
         .col-lg-8.com.mb-0.mb-lg-0
           .bloque-texto-a__texto.p-lg-5.p-md-4.p-3
@@ -385,11 +385,11 @@
                     p.mb-0 Programación en toda la estancia
     
     
-    .bloque-texto-g.color-sec.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+    .bloque-texto-g.color-sec.p-3.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/29.png')})`}"
       )
-      .bloque-texto-g__texto.p-lg-5.p-4.my-lg-5.my-2
+      .bloque-texto-g__texto.p-lg-5.p-3
         p.mb-4 Con esta información se procederá hacer el pre-registro; así el huésped al llegar solo registrará su firma o algún otro dato faltante. En el manejo de cuentas es importante solicitar un respaldo para cargos extras y/o en caso de tener una cuenta maestra, conocer muy bien la firma de la persona autorizada.
         br
         br
@@ -398,9 +398,9 @@
     .bg7.p-2.mb-4
       h3.mb-0.ps-4.pe-4 #[em No show]
 
-    p.mb-5 El reporte de huéspedes #[em no show], es elaborado desde el área de recepción y consiste en la relación de las reservas confirmadas y garantizadas por el huésped, que no se presentó al hotel y no realizó el proceso de #[em check-in] en la fecha y hora establecida; este debe ser enviado al área de reservas o #[em revenue] para que se pueda actualizar el #[em planning]. 
+    p.mb-4 El reporte de huéspedes #[em no show], es elaborado desde el área de recepción y consiste en la relación de las reservas confirmadas y garantizadas por el huésped, que no se presentó al hotel y no realizó el proceso de #[em check-in] en la fecha y hora establecida; este debe ser enviado al área de reservas o #[em revenue] para que se pueda actualizar el #[em planning]. 
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12
         .bg8.p-lg-5.p-3
           .row.justify-content-center.align-items-center.mb-0
@@ -658,7 +658,7 @@
         .col-lg-7(data-aos="fade-left")
           .p-4
             .br1.mb-3
-            p.mb-4(data-aos="fade-left") A través del departamento de reservaciones del hotel, un pasajero (PAX) o huésped puede hacer una solicitud de reserva de habitación, en una fecha específica y por un tiempo de estadía o permanencia determinado. Este proceso consiste en que el establecimiento hotelero asume el compromiso de separar una habitación para uno o varios huéspedes, lo cual requiere de un depósito o pago anticipado por parte del huésped como garantía de la reserva a favor del hotel (Ateortua, 2013).
+            p.mb-lg-4.mb-0(data-aos="fade-left") A través del departamento de reservaciones del hotel, un pasajero (PAX) o huésped puede hacer una solicitud de reserva de habitación, en una fecha específica y por un tiempo de estadía o permanencia determinado. Este proceso consiste en que el establecimiento hotelero asume el compromiso de separar una habitación para uno o varios huéspedes, lo cual requiere de un depósito o pago anticipado por parte del huésped como garantía de la reserva a favor del hotel (Ateortua, 2013).
 
     p.mb-4(data-aos="fade-left") Existen procedimientos técnicos para la realización de reservaciones: 
 
