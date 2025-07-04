@@ -379,7 +379,7 @@
                     p.mb-0 Persona responsable o conductor
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
-                    p.mb-0 VIP en el grupo.
+                    p.mb-0 VIP en el grupo
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
                     p.mb-0 Programación en toda la estancia
