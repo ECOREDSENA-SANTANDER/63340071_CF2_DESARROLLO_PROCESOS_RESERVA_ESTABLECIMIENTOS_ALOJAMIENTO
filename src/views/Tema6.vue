@@ -40,8 +40,7 @@
                     p.mb-0 El servicio turístico está directamente mandado a satisfacer la corriente turística, la cual comprende personas con fines turísticos que se desplazan de un lugar a otro, constituyendo un caudal continuo con características especiales para la realización de actividades ajenas a la rutina, para así satisfacer la demanda turística en cualquier ámbito hotelero o no hotelero (Antonietti, 2017). 
 
     .bg7.p-2.mb-5(data-aos="fade-left")
-      h3.mb-0.ps-4.pe-4 Como servicios turísticos se encuentran
-
+      h3.mb-0.ps-4.pe-4 Entre los principales servicios turísticos se incluyen
     .row.fondo3.p-3.p-lg-4.p-md-3.mb-5(data-aos="fade-left")
       .col-lg-12
         

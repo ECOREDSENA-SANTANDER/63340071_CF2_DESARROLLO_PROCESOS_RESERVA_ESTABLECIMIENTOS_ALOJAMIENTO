@@ -9,17 +9,17 @@
 
       .row.justify-content.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-5
-          .bg2.p-4.mb-4 
-            p.mb-0.my-lg-4 La disponibilidad hotelera se refiere al número de habitaciones que un establecimiento tiene libres para asignar en un momento determinado. Es un indicador clave para la gestión operativa, ya que permite optimizar la ocupación, ajustar tarifas según la demanda y planificar tareas como limpieza y mantenimiento.
+          .bg2.p-4.mb-lg-0.mb-4
+            p.mb-0.my-lg-4 La disponibilidad hotelera se refiere al número de habitaciones que un establecimiento tiene libres para asignar en un momento determinado. Es un indicador clave para la gestión operativa, ya que permite optimizar la ocupación, ajustar tarifas según la demanda y planificar tareas como limpieza y mantenimiento. 
         .col-lg-3 
-          img.mb-4.d-none.d-lg-block(src='@/assets/curso/tema1/1.png' alt="")
+          img.mb-0.d-none.d-lg-block(src='@/assets/curso/tema1/1.png' alt="")
         .col-lg-4
           img.mb-3.d-none.d-lg-block.img-t(src='@/assets/curso/tema1/2.svg' alt="")
-          p.mb-lg-4.mb-0 Una correcta gestión de la disponibilidad, apoyada en sistemas como el #[em room rack], permite al personal del hotel tomar decisiones rápidas y precisas. Además, es fundamental que esta información esté sincronizada en tiempo real con los canales de reserva para evitar sobreventas o pérdida de oportunidades.
+          p.mb-lg-0.mb-0 Una correcta gestión de la disponibilidad, apoyada en sistemas como el #[em room rack], permite al personal del hotel tomar decisiones rápidas y precisas. Además, es fundamental que esta información esté sincronizada en tiempo real con los canales de reserva para evitar sobreventas o pérdida de oportunidades.
 
     
       separador
-      #t_1_1.titulo-segundo.mb-lg-5.mb-3
+      #t_1_1.titulo-segundo.mb-5
         h2 1.1 #[em Planning] de habitaciones o #[em room rack]
  
       .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4.mb-lg-5.mb-4(data-aos="fade-left")
@@ -41,7 +41,7 @@
 
 
       separador
-      #t_1_2.titulo-segundo.mb-lg-5.mb-3
+      #t_1_2.titulo-segundo.mb-5
         h2 1.2 Estado de las habitaciones
 
       p.mb-4(data-aos="fade-left") Los estados de las habitaciones muestran cómo se encuentra la habitación en el momento para poder darla en reserva a un cliente y/o huésped o si se está presentando una eventualidad con la habitación.
@@ -52,8 +52,8 @@
            
           .row.justify-content-center.align-items-end.mb-0(data-aos="fade-left")
             .col-lg-4.col-md-5.col-7.mb-4
-              img.img-a.img-t(src='@/assets/curso/tema1/5.svg', alt='')
-            .col-lg-8.mb-lg-0.mb-0
+              img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/5.svg', alt='')
+            .col-lg-8.mb-lg-0.mb-4
               SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
                   .row.justify-content-center.mb-3

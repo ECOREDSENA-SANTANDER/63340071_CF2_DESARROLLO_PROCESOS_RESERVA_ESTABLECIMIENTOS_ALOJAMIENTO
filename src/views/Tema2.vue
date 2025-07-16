@@ -11,7 +11,7 @@
     p.mb-5(data-aos="fade-right") Una reservación es un acuerdo, verbal o escrito, que se establece entre el hotel y una persona natural o jurídica, donde el primero se compromete a realizar una prestación de alojamiento y demás servicios en una fecha preestablecida y por un periodo determinado; y el segundo, a recibir la prestación del servicio en la fecha reservada y a realizar el pago del servicio, con consecuencia de penalización por cancelación. 
 
 
-    .titulo.mb-5.ps-5.pe-2(data-aos="fade-right")
+    .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema2/sub.png', alt='Imagen decorativa')
       h3.mb-0.mx-4 Objetivo de la gestión de reservas 
     
@@ -26,40 +26,41 @@
 
 
     separador
-    #t_2_1.titulo-segundo.mb-4
-      h2 2.1 Tipos de reservas
+    #t_2_1.titulo-segundo.mb-5
+      h2 2.1 Tipos y mecanismo de reserva  
+    
+    p.mb-4 En el ámbito hotelero, las reservas se clasifican según diversos criterios relacionados con el origen, la forma de confirmación o el estado de la solicitud. Conocer los tipos de reservas es fundamental para una gestión eficiente de la ocupación y la atención al cliente. Entre los principales tipos se encuentran: 
+    p.mb-lg-4.mb-3 Los siguientes son los tipos de reserva que se pueden presentar:
 
-    p.mb-4 Los siguientes son los tipos de reserva que se pueden presentar:
-
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.col-md-5.col-8.mb-4
         img.d-none.d-lg-block(src='@/assets/curso/tema2/3.png', alt='')
       .col-lg-9.mb-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Confirmada")
-            .col-lg-12.mb-4
+            .col-lg-12
               p.mb-0 Es también conocida como no garantizada ya que no hay un pago de por medio. Cuando una reservación se confirma, los huéspedes deben proporcionar ciertos datos y estos se deben integrar al sistema de reservas del hotel.
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Garantizada")
-            .col-lg-12.mb-4
+            .col-lg-12
               p.mb-0 En este tipo de reservas hay pagos de por medio, son reservaciones contactadas a través de una agencia de viajes, líneas aéreas, asesorías de grupos o directamente por el cliente, ya que están garantizadas por medio de un cupón u orden de cambio, o la transacción hecha por el cliente a la cuenta directa del hotel. 
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Provisionales")
-            .col-lg-12.mb-4
+            .col-lg-12
               p.mb-0 Tiene una fecha y hora límite de viaje. En su mayoría es para las agencias de viajes. Se les marca una hora límite de llegada teniendo el hotel la libertad de acortarlo o alargarlo según las necesidades. Estas reservas no tienen garantía o depósito. 
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="En lista de espera")
-            .col-lg-12.mb-4
+            .col-lg-12
               p.mb-0 Este tipo de reservas se da cuando hay muchas reservaciones dentro de un hotel. Por lo cual es la suma de reservaciones provisionales y confirmadas. 
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Denegadas")
-            .col-lg-12.mb-4
+            .col-lg-12
               p.mb-0 Es cuando no se puede aceptar una reserva, se le dan las disculpas al PAX (término utilizado en turismo para referirse a un pasajero o a las personas incluidas en una reserva) y se le recomienda un hotel que tenga las condiciones que piden. 
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Cancelada")
-            .col-lg-12.mb-4
+            .col-lg-12
               p.mb-0 Por el cliente o por el hotel (este último debe dar una solución inmediata).  
 
 
-    separador
-    #t_2_2.titulo-segundo.mb-lg-5.mb-3
-      h2 2.2 Mecanismo de reservas
-    
+    .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema2/sub.png', alt='Imagen decorativa')
+      h3.mb-0.mx-4 Mecanismo de reservas
+
     p.mb-4(data-aos="fade-left") El mecanismo de reservas en un establecimiento de alojamiento se lleva de manera manual o sistematizada. 
 
     .tit.p-2.mb-4(data-aos="fade-left")
@@ -74,12 +75,12 @@
 
     .bg1.p-4.mb-lg-5.mb-4(data-aos="fade-left")
       .row.justify-content-center.align-items-center
-        .col-lg-4
+        .col-lg-6
           .row.justify-content-center.align-items-center
             .col-3
-              img.mb-0.img-a.img-t(src='@/assets/curso/tema1/2.svg' alt="")
+              img.mb-0.img-a.img-t(src='@/assets/curso/tema2/55.svg' alt="")
             .col-9
-              h5.mb-0 Ejemplo de formato para reservas manuales 
+              p.mb-0 #[b Ejemplo de formato para reservas manuales]
           
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12
@@ -95,26 +96,25 @@
       .col-lg-12
         .titulo-sexto.color-secundario.mb-2
           h5 Figura 2. 
-          | Ejemplo de formato manual de #[em planning] de habitaciones ocupadas y reservadas 
+          |  Ejemplo de imagen de #[em planning] de habitaciones libre, ocupada y #[em check out] pendiente.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-11
-        img.mb-2(src='@/assets/curso/tema2/7.jpg', alt='El formato manual representa las habitaciones ocupadas con una marca o señal específica que indica que ya están siendo utilizadas, mientras que las habitaciones reservadas garantizadas se identifican con otra marca que señala que ya se ha recibido un pago o garantía. Si se registra una reserva que aún no ha sido garantizada, esta puede anotarse con lápiz, de modo que, si el cliente no confirma la reserva dentro del tiempo establecido, se pueda borrar y liberar la habitación para volver a ponerla a la venta en esa fecha.')
-        figcaption Fuente: https://slideplayer.es/slide/1032953/ 
+      .col-lg-8
+        img.mb-2(src='@/assets/curso/tema2/7.png', alt='La imagen representa en color verde las habitaciones libres, en color rojo ocupada,  en color gris pendiente de hacer check out, en color amarillo habitación bloqueada por el momento no hay.')
+        figcaption.fc Fuente: https://www.flickr.com/photos/greensoftware/4986478882/in/photostream/lightbox/ 
 
     .tit.p-2.mb-lg-5.mb-4(data-aos="fade-left")
       h3.mb-0.ps-4.pe-4 Reserva sistematizada
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
-      .col-lg-5
+      .col-lg-4
         img.mb-0.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/8.png' alt="")
-      .col-lg-7
-        p.mb-3 Los sistemas hoteleros, que forman parte de un #[em software] creado a medida según las necesidades del hotel, de acuerdo con los tipos de servicios que ofrecen.
+      .col-lg-8
+        p.mb-4 Los sistemas hoteleros, que forman parte de un #[em software] creado a medida según las necesidades del hotel, de acuerdo con los tipos de servicios que ofrecen.
         .row.justify-content-center.align-items-center.mb-lg-3.mb-0
           .col-lg-2
-            img.mb-0.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/9.svg' alt="")
+            img.mb-0.img-a.d-none.d-lg-block(src='@/assets/curso/tema2/56.svg' alt="")
           .col-lg-10
             p.mb-0 En estos #[em softwares], tanto uno como otro, se encuentra la pantalla de reservas, pantalla de caja, de restaurante, de #[em stock] de insumos, de administración. A la pantalla de reservas tendrán acceso las personas encargadas del sector, recepción/conserjería, caja, administración y la gerencia.
-        img.mb-0.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg' alt="")
         
     .bg1.p-4.mb-4(data-aos="fade-left")
       .row.justify-content-center.align-items-center
@@ -134,22 +134,21 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2 Admintour - ¿Cómo se usa el #[em plannig] de habitaciones?
-              p.mb-0 Donde podrá conocer el funcionamiento del #[em planning] de habitaciones.
+              p.mb-0 A continuación, se presenta un video que ejemplifica el tema tratado. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uVBlwXI9RGQ" target="_blank")
                 span Ir al sitio 
                 i.fas.fa-video
 
-
     separador
-    #t_2_3.titulo-segundo.mb-lg-5.mb-3
-      h2 2.3 Norma Técnica Sectorial NTSH – 003. Establecimientos de alojamiento y hospedaje. Norma de competencia laboral. Prestación de servicio de recepción y reservas conforme a manuales existentes
+    #t_2_2.titulo-segundo.mb-5
+      h2 2.2 NTSH-003: Prestación del servicio de recepción y reservas en alojamientos según manuales establecidos
     
     p.mb-4(data-aos="fade-left") Esta norma define que para el registro de reservas se deben tener en cuenta los siguientes aspectos tales como:
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-7
-        .bg4.p-3
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+      .col-lg-8
+        .bg4.p-3.mb-0
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
@@ -169,7 +168,7 @@
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Las habitaciones se pre-asignan o bloquean conforme a los procedimientos.
+                p.mb-0 Las habitaciones se preasignan o bloquean conforme a los procedimientos.
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
@@ -190,8 +189,8 @@
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 Las tarifas se aplican conforme a políticas establecidas.  
-      .col-lg-5
-        img.d-none.d-lg-block(src="@/assets/curso/tema2/13.svg")
+      .col-lg-4.mb-lg-2.mb-0
+        img.d-none.d-lg-block(src="@/assets/curso/tema2/57.svg")
 
     .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
@@ -207,11 +206,10 @@
                 span Descargar
                 i.fas.fa-file-download
 
-
     separador
-    #t_2_4.titulo-segundo.mb-lg-5.mb-3
-      h2 2.4 Procesos de reservaciones   
-
+    #t_2_3.titulo-segundo.mb-5
+      h2 2.3 Procesos de reservaciones   
+    
     p.mb-4(data-aos="fade-left") Dentro de un proceso de reservación tener en cuenta lo siguiente:
 
 
@@ -225,7 +223,7 @@
                 .row.justify-content-center
                   .col-lg-8
                     h4.mb-4 Depósitos
-                    p.mb-4 Son las reservaciones en las cuáles el huésped garantiza su llegada mediante el pago de una cantidad de dinero que generalmente es el precio de la habitación que él desea; sin embargo, si por alguna circunstancia el huésped no llega #[em (no show)], se abre una cuenta aplicándole el depósito.
+                    p.mb-4 Son las reservaciones en las cuáles el huésped garantiza su llegada mediante el pago de una cantidad de dinero que generalmente es el precio de la habitación que él desea; sin embargo, si por alguna circunstancia el huésped no llega (#[em no show]), se abre una cuenta aplicándole el depósito.
                     p.pri.mb-0 Las habitaciones que sean pagadas por una agencia de viajes (cupón de agencias), también entran en el grupo de depósitos, al igual que las reservaciones que están garantizadas por medio de una carta de una empresa que se hace responsable de la cuenta del huésped (Báez, 2009).
                   .col-lg-4
                     img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/15.png', alt='')
@@ -246,7 +244,7 @@
               .tarjeta.colorac.p-4(titulo="Huéspedes VIP <em>(Very Important Person)</em>")
                 .row.justify-content-center
                   .col-lg-8
-                    h4.mb-4.my-4 Huéspedes VIP #[em (Very Important Person)]
+                    h4.mb-4.my-4 Huéspedes VIP (#[em Very Important Person])
                     p.mb-0 Aunque todas las personas son importantes a este tipo de personas se les ofrece un tratamiento especial, ya que los huéspedes VIP por su influencia en el medio donde se desarrollan pueden ayudar al hotel a incrementar sus ventas.
                   .col-lg-4
                     img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/18.png', alt='')
@@ -327,12 +325,12 @@
     p.mb-4(data-aos="fade-left") El departamento de ventas o reservaciones; enviará al jefe de recepción con anticipación la notificación del grupo que está por llegar, debe incluir el listado de personas que se alojarán, además de la siguiente información:
     
     
-    .row.fondo4.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-right")
+    .row.fondo4.p-4.p-lg-4.p-md-4.mb-5(data-aos="fade-right")
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-8
+          .col-lg-9
             .row.justify-content-center.align-items.mb-3
-              .col-lg-4.col-md-6.o1
+              .col-lg-3.col-md-6.o1
                 ul.lista-ul.lista-ul--separador.mb-0
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
@@ -349,9 +347,9 @@
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
                     p.mb-md-4.mb-lg-0.mb-4 Hora de salida
-              .col-lg-4.o3
+              .col-lg-5.o3
                 img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/28.svg' alt='')     
-              .col-lg-4.col-md-6.o2
+              .col-lg-3.col-md-6.o2
                 ul.lista-ul.lista-ul--separador.mb-0
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
@@ -366,7 +364,7 @@
                     i.fas.fa-circle-check
                     p.mb-md-4.mb-lg-0.mb-4 Indicadores especiales
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.col-md-7
                 ul.lista-ul.lista-ul--separador.mb-0.mx-lg-4
                   li.d-flex.mb-3
                     i.fas.fa-circle-check
@@ -419,13 +417,13 @@
         .bg10.p-4.mb-4
           .row.justify-content-center.align-items-center.my-2
             .col-lg-2
-              img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/26.svg' alt='')  
+              img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/00.svg' alt='')  
             .col-lg-10
               p.mb-1 Una de las responsabilidades del área de reservas es el control de la disponibilidad de habitaciones, por ello, la elaboración de #[em planning] o los diferentes reportes, se convierte en una herramienta esencial para dar cumplimiento a la previsión de ocupación en determinadas fechas y evitar incurrir en sobreventas. 
         .bg10.p-4
           .row.justify-content-center.align-items-center.my-2
             .col-lg-2
-              img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/26.svg' alt='')  
+              img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/01.svg' alt='')  
             .col-lg-10
               p.mb-1 Estos reportes muestran el estado real de las reservaciones, mediante la previsión de llegadas individuales y particulares, emisión del #[em rooming list] para llegadas de grupos, información del #[em planning] de reservas garantizadas y confirmadas, tratamiento de las modificaciones y cancelaciones, tratamiento de pasajeros #[em no show,] información de pasajeros en lista de espera y manejo de #[em overbooking] o sobreventa. 
 
@@ -437,11 +435,11 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        .bg6.p-3.mb-4
+        .bg6.p-lg-2.p-md-4.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col
-              img.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/33.svg' alt='')  
-            .col-lg-11
+            .col-lg-2
+              img.img-t.img-a.d-none.d-lg-block(src='@/assets/curso/tema2/02.svg' alt='')  
+            .col-lg-10.ps-lg-0
               p.mb-1 Algunas de las siguientes normas son recomendadas al asignar habitaciones a los huéspedes:
         ul.lista-ul.lista-ul--separador.mb-0
           li.d-flex.mb-2
@@ -459,7 +457,7 @@
           li.d-flex.mb-2
             i.fas.fa-circle-check
             p.mb-0 Asignar las habitaciones de grupos en una misma área del hotel.  
-      .col-lg-4
+      .col-lg-4.mb-lg-3.mb-0
         img.d-none.d-lg-block(src='@/assets/curso/tema2/32.png' alt='')  
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
@@ -468,9 +466,9 @@
           h5 Figura 3. 
           | Ejemplo de formato de reserva
     .row.justify-content-center.align-items-center
-      .col-lg-9
-        img.mb-4(src='@/assets/curso/tema2/34.svg', alt='El formulario recoge los datos necesarios para hacer una reserva en el hotel. Incluye: • Información del cliente (nombre, contacto, empresa). • Fechas de entrada y salida, número de noches. • Tipo y cantidad de habitaciones, número de personas, tarifa y si incluye desayuno. • Medio de pago y si la reserva es directa o por agencia. Ayuda a organizar y confirmar reservas de manera clara y eficiente.')
-        figcaption.mb-lg-5.mb-4 Tomado de la publicación Gestión del sector alojamiento hotel. Calle, M., Lazo, A., & Granados, M. (2018). Gestión del sector alojamiento-Hotel. #[em Machala]: UTMACH.  
+      .col-lg-10
+        img.mb-4(src='@/assets/curso/tema2/34.svg', alt='formato de registro de reservación hotelera con campos para datos del huésped, alojamiento, forma de pago y control interno.')
+        figcaption.mb-lg-5.mb-4 Tomado de la publicación Gestión del sector alojamiento hotel. Calle, M., Lazo, A., & Granados, M. (2018). Gestión del sector alojamiento-Hotel. #[em Machala: UTMACH.] 
     
     .bg7.p-2.mb-4
       h3.mb-0.ps-4.pe-4 #[em Rooming list]
@@ -525,7 +523,7 @@
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         .tabla-a.tabla-mod1
-          table(alt='Este ejemplo de tabla organiza la información de los huéspedes de un grupo. Incluye columnas para: • Número de habitación • Fechas de ingreso y salida • Nombre y apellido del huésped • Número de personas (pax) • Plan de alimentación • Observaciones • Nombre del guía o responsable del grupo • Confirmación de ingreso al hotel. Se usa para coordinar la llegada y estancia de grupos en el hotel.')
+          table(alt='Tabla de ejemplo de una plantilla rooming list manual con información de habitaciones, fechas, huéspedes, alimentación, observaciones y responsable del grupo.')
             tbody
               tr.bt5
                 td.text-center(data-aos="fade-left") Número de habitaciones
@@ -557,7 +555,7 @@
                 td.text-center(data-aos="fade-left") Mantilla Rincón
                 td.text-center(data-aos="fade-left") 4
                 td.text-center(data-aos="fade-left") Desayuno y almuerzo
-                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-left") -
                 td.text-center(data-aos="fade-left") Roberto García
                 td.text-center(data-aos="fade-left") 13/05/2024 
               tr
@@ -568,7 +566,7 @@
                 td.text-center(data-aos="fade-left") Mendoza Castillo
                 td.text-center(data-aos="fade-left") 4
                 td.text-center(data-aos="fade-left") Desayuno y almuerzo
-                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-left") -
                 td.text-center(data-aos="fade-left") Roberto García
                 td.text-center(data-aos="fade-left") 13/05/2024 
               tr
@@ -579,7 +577,7 @@
                 td.text-center(data-aos="fade-left") Ballesteros Rueda
                 td.text-center(data-aos="fade-left") 4
                 td.text-center(data-aos="fade-left") Desayuno y almuerzo
-                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-left") -
                 td.text-center(data-aos="fade-left") Roberto García
                 td.text-center(data-aos="fade-left") 13/05/2024 
               tr
@@ -601,7 +599,7 @@
                 td.text-center(data-aos="fade-left") Arango Méndez
                 td.text-center(data-aos="fade-left") 4
                 td.text-center(data-aos="fade-left") Desayuno y almuerzo
-                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-left") -
                 td.text-center(data-aos="fade-left") Roberto García
                 td.text-center(data-aos="fade-left") 13/05/2024 
               tr
@@ -612,7 +610,7 @@
                 td.text-center(data-aos="fade-left") Camacho Prada
                 td.text-center(data-aos="fade-left") 4
                 td.text-center(data-aos="fade-left") Desayuno y almuerzo
-                td.text-center(data-aos="fade-left")
+                td.text-center(data-aos="fade-left") -
                 td.text-center(data-aos="fade-left") Roberto García
                 td.text-center(data-aos="fade-left") 13/05/2024 
   
@@ -625,29 +623,24 @@
               .bg9.p-lg-5.p-3
                 .row.justify-content-center.align-items-center.mb-0
                   .col-lg-12
-                    p.mb-0 Generalmente este listado de huéspedes está sujeto a modificaciones de último momento, lo cual retrasa los procesos de check-in en el área de recepción. Los sistemas de gestión de propiedad o PMS, traen un módulo de manejo de grupos, que al ser alimentado con las reservas de un grupo automáticamente genera los listados del rooming list como se puede apreciar en el siguiente video.
+                    p.mb-0 Generalmente este listado de huéspedes está sujeto a modificaciones de último momento, lo cual retrasa los procesos de #[em check-in] en el área de recepción. Los sistemas de gestión de propiedad o PMS, traen un módulo de manejo de grupos, que al ser alimentado con las reservas de un grupo automáticamente genera los listados del #[em rooming list] como se puede apreciar en el siguiente video.
 
 
-    .bg11.p-lg-5.p-4.mb-5(data-aos="fade-left")
-      .row.justify-content-center.align-items-center
-        .col-lg-12
-          p.mb-2 Se invita a ir al siguiente video como ejemplo de #[em rooming list] sistematizado
-          p.mb-4.pri Nombre: #[em rooming list] en reservas de grupo
-
-          .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/tema2/video.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h4.mb-2 #[em Ulyses Cloud | Rooming list] en reservas de grupo.
-                    p.mb-0 Se invita a consultar el siguiente video, donde se explica cómo construir la #[em rooming list] para reservas de grupo en el #[em software] hotelero #[em Ulyses Cloud.]
-                  
-                  .col-sm-auto
-                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=wG3QboXEX4g" target="_blank")
-                      span Ir al sitio
-                      i.fas.fa-video
+  
+    .tarjeta.color-acento-contenido.p-4.mb-5(data-aos="fade-right")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema2/video.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4.mb-2 #[em Ulyses Cloud | Rooming list] en reservas de grupo.
+              p.mb-0 Se invita a consultar el siguiente video, donde se explica cómo construir la #[em rooming list] para reservas de grupo en el #[em software] hotelero #[em Ulyses Cloud.]
+            
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=wG3QboXEX4g" target="_blank")
+                span Ir al sitio
+                i.fas.fa-video
 
     .bg7.p-2.mb-5(data-aos="fade-left")
       h3.mb-0.ps-4.pe-4 Procedimientos técnicos  
@@ -662,55 +655,59 @@
 
     p.mb-4(data-aos="fade-left") Existen procedimientos técnicos para la realización de reservaciones: 
 
+    .bg14.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-7.p-3(data-aos="fade-left")
+          .bgy.p-1.mx-4.mb-4
+            h4.ps-4.pe-4.mb-0 Confirmación
+          p.mb-4.mx-4 Para el procedimiento de confirmación de una reserva se tendrá en cuenta la secuencia o paso a paso para la realización:
+          ol.lista-ol--cuadro.mx-4
+            li.d-flex
+              .lista-ol--cuadro__vineta
+                span 1
+              p.mb-0 El agente de reservaciones recibe la solitud de reserva ya sea por solicitud directa, telefónica, correo electrónico, página web, mensajería y chatbots, redes sociales, etc.
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 2
+              p.mb-0 Procede a la toma de los datos para la reserva (fecha de llegada, número de personas, número de habitaciones que requiere).
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 3
+              p.mb-0 Verifica la disponibilidad de habitaciones. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 4
+              p.mb-0 Informa las tarifas disponibles, los tipos de habitaciones e impuestos. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 5
+              p.mb-0 Pregunta si el cliente desea hacer la reservación y garantizarla.
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 6
+              p.mb-0 Informa sobre políticas, cancelaciones y pasajeros #[em no show.] 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 7
+              p.mb-0 El agente de reservas pide el nombre del huésped y el número de contacto. 
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 8
+              p.mb-0 Suministra la información al cliente de los detalles de la reserva y verifica que sea correcta.
+            li.d-flex 
+              .lista-ol--cuadro__vineta
+                span 9
+              p.mb-0 Al finalizar se indica el récord o número de reserva.
+        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3.d-none.d-lg-block(data-aos="fade-right"): img(src='@/assets/curso/tema2/44.png', alt='')
+    
+    p.mb-4 La gestión de reservas hoteleras implica una serie de procedimientos clave para asegurar la disponibilidad del servicio y prevenir conflictos operativos. Uno de los elementos fundamentales para garantizar la habitación reservada es la solicitud de un depósito o pago anticipado como garantía. Actualmente, estos procesos se encuentran automatizados: un cliente puede realizar su reserva en línea y el sistema ejecuta automáticamente las validaciones y registros necesarios. No obstante, este funcionamiento requiere una configuración previa adecuada, así como la supervisión del personal para verificar que todo esté alineado con las políticas del hotel y que los sistemas operen correctamente. 
+    p.mb-5 A continuación, se describen los procedimientos relacionados con la modificación, cancelación y anulación de reservas, los cuales deben gestionarse conforme a protocolos establecidos y respaldados con la documentación correspondiente para evitar errores o sobreventa de habitaciones. 
+    
     .row.fondo6.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
       .col-lg-12
         
         .tarjetaf.p-4.mb-2
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-            .row.justify-content-center.align-items-center.p-0.p-lg-4
-              .col-lg-7
-                h4.mb-4 Confirmación
-                p.mb-4 Para el procedimiento de confirmación de una reserva se tendrá en cuenta la secuencia o paso a paso para la realización:
-                ol.lista-ol--cuadro
-                  li.d-flex
-                    .lista-ol--cuadro__vineta
-                      span 1
-                    p.mb-0 El agente de reservaciones recibe la solitud de reserva ya sea por solicitud directa, telefónica, correo electrónico, página web, mensajería y chatbots, redes sociales, etc.
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 2
-                    p.mb-0 Procede a la toma de los datos para la reserva (fecha de llegada, número de personas, número de habitaciones que requiere).
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 3
-                    p.mb-0 Verifica la disponibilidad de habitaciones. 
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 4
-                    p.mb-0 Informa las tarifas disponibles, los tipos de habitaciones e impuestos. 
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 5
-                    p.mb-0 Pregunta si el cliente desea hacer la reservación y garantizarla.
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 6
-                    p.mb-0 Informa sobre políticas, cancelaciones y pasajeros #[em no show.] 
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 7
-                    p.mb-0 El agente de reservas pide el nombre del huésped y el número de contacto. 
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 8
-                    p.mb-0 Suministra la información al cliente de los detalles de la reserva y verifica que sea correcta.
-                  li.d-flex 
-                    .lista-ol--cuadro__vineta
-                      span 9
-                    p.mb-0 Al finalizar se indica el récord o número de reserva.  
-                p.mb-0 Es importante recordar que, para poder garantizar la habitación reservada, es necesario la solicitud de un depósito o pago anticipado. Hoy en día estos procesos se encuentran automatizados, de manera que, por ejemplo, un cliente puede reservar en línea y el sistema hace las verificaciones y reservas de forma automática. Para que esto suceda, se requiere una configuración previa y una sincronización de los sistemas. De todas formas, aunque en el proceso automático no hay intervención humana, esta es requerida para verificar que todo esté acorde a las políticas del hotel y la verificación del funcionamiento adecuado de los sistemas.    
-              .col-lg-5.col-md-7
-                img.d-none.d-lg-block(alt="" src="@/assets/curso/tema2/44.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-7
                 h4.mb-4 Modificación
@@ -720,9 +717,7 @@
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-7
                 h4.mb-4 Cancelación
-                p.mb-4 El procedimiento de la cancelación de reservas hoteleras es de mucho cuidado, dado que genera consecuencias porque puede afectar la relación del huésped con el hotel. 
-                p.mb-4 Por lo general, una reserva es cancelada por el hotel cuando no se solicitó anticipo como garantía y cuando es el huésped quien cancela, el hotel podrá cobrar una penalidad, que equivale a un porcentaje de la tarifa según la hora de cancelación. 
-                p.mb-4 El huésped puede cancelar la reservación entre 72 a 48 horas antes de la fecha de la llegada al hotel, sin ningún recargo.  
+                p.mb-4 El procedimiento de la cancelación de reservas hoteleras es de mucho cuidado, dado que genera consecuencias porque puede afectar la relación del huésped con el hotel, por lo general, una reserva es cancelada por el hotel cuando no se solicitó anticipo como garantía y cuando es el huésped quien cancela, el hotel podrá cobrar una penalidad, que equivale a un porcentaje de la tarifa según la hora de cancelación. El huésped puede cancelar la reservación entre 72 a 48 horas antes de la fecha de la llegada al hotel, sin ningún recargo. 
               .col-lg-5.col-md-7
                 img(alt="" src="@/assets/curso/tema2/46.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
@@ -736,18 +731,81 @@
 
 
     separador
-    #t_2_5.titulo-segundo.mb-lg-5.mb-3
-      h2 2.5 Vocabulario técnico
+    #t_2_4.titulo-segundo.mb-5
+      h2 2.4 Vocabulario técnico 
 
-    p.mb-4(data-aos="fade-left") Aunque al cliente y/o huésped se le debe hablar con un lenguaje claro y preciso y con un tono amable y cordial, en el servicio de la hostelería se emplea un vocabulario técnico enlazado con cada área del establecimiento, por ello, es importante que las personas que desarrollan esta actividad se familiaricen con los términos hoteleros y turísticos que se puedan presentar en el ejercicio de la actividad.  
+    p.mb-4 En el entorno hotelero, el dominio del vocabulario técnico es una competencia clave para brindar un servicio profesional, eficiente y estandarizado. Aunque la interacción con el huésped debe hacerse en un lenguaje claro, amable y comprensible, el personal que labora en el sector debe manejar terminología especializada que facilita la coordinación interna y mejora la precisión en los procedimientos.
+    p.mb-4 Este lenguaje técnico se encuentra vinculado a las funciones y responsabilidades de cada área del establecimiento. A continuación, se describe su importancia y aplicación por áreas: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        LineaTiempoD.color-acento-botones.activo
+          .row(numero="A" titulo="Recepción y reservas")
+            .col-md-12
+              p.mb-0 #[b #[em Check-in:]] proceso de registro del huésped al llegar. 
+              p.mb-0 #[b #[em Check-out:]] proceso de salida y pago del huésped. 
+              p.mb-0 #[b #[em No show:]] huésped que no se presenta sin cancelar. 
+              p.mb-0 #[b #[em Upgrade:]] mejora de categoría de habitación sin costo adicional. 
+              p.mb-0 #[b #[em Overbooking:]] venta de más habitaciones de las disponibles. 
+          .row(numero="B" titulo="Alojamiento y pisos")
+            .col-md-12
+              p.mb-0 #[b #[em Room status:]] estado de la habitación (ocupada, libre, sucia, en mantenimiento). 
+              p.mb-0 #[b #[em Turn down service:]] servicio de preparación de la cama para la noche.
+              p.mb-0 #[b #[em Housekeeping:]] departamento de limpieza y mantenimiento de habitaciones. 
+          .row(numero="C" titulo="Alimentos y bebidas")
+            .col-md-12
+              p.mb-0 #[b #[em Room service:]] servicio de alimentos a la habitación. 
+              p.mb-0 #[b #[em Buffet:]] servicio de autoservicio con variedad de platos. 
+              p.mb-0 #[b #[em Mise en place:]] preparación previa del área de trabajo o del comedor. 
+          .row(numero="D" titulo="Administración y comercial")
+            .col-md-12
+              p.mb-0 #[b Tarifa BAR #[em (Best Available Rate):]] mejor tarifa disponible del día. 
+              p.mb-0 #[b #[em Rack rate:]] tarifa oficial sin descuentos. 
+              p.mb-0 #[b #[em Voucher:]] documento que garantiza el pago o la reserva a través de una agencia. 
+          .row(numero="E" titulo="Eventos y grupos")
+            .col-md-12
+              p.mb-0 #[b #[em Rooming list:]] lista de nombres y habitaciones asignadas para un grupo. 
+              p.mb-0 #[b Banquete:] servicio de alimentos para eventos con menú preestablecido. 
+              p.mb-0 #[b Montaje:] disposición de las mesas y sillas para eventos (escuela, auditorio, etc.). 
+      .col-lg-4.d-none.d-lg-block
+        img(alt="" src="@/assets/curso/tema2/03.png")
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-12
+        .bg4.p-3.mb-0
+          .bg7.p-2.mb-4(data-aos="fade-left")
+            h3.mb-0.ps-4.pe-4 Importancia del vocabulario técnico
+          .bgw.p-1.mb-2
+            ul.lista-ul.mb-0
+              li.d-flex.mb-0
+                i.fas.fa-circle-check
+                p.mb-0 Facilita la comunicación interna: permite que el personal de diferentes áreas se entienda con mayor rapidez y claridad. 
+          .bgw.p-1.mb-2
+            ul.lista-ul.mb-0
+              li.d-flex.mb-0
+                i.fas.fa-circle-check
+                p.mb-0 Evita errores operativos: un término mal interpretado puede causar fallas en el servicio. 
+          .bgw.p-1.mb-2
+            ul.lista-ul.mb-0
+              li.d-flex.mb-0
+                i.fas.fa-circle-check
+                p.mb-0 Estándares de calidad: el uso de terminología común asegura que todos los empleados trabajen bajo las mismas normas y procedimientos. 
+          .bgw.p-1.mb-2
+            ul.lista-ul.mb-0
+              li.d-flex.mb-0
+                i.fas.fa-circle-check
+                p.mb-0 Mejora la formación del personal: los nuevos colaboradores se integran más fácilmente cuando comprenden el lenguaje propio del sector. 
+          .bgw.p-1.mb-2
+            ul.lista-ul.mb-0
+              li.d-flex.mb-0
+                i.fas.fa-circle-check
+                p.mb-0.ft Fortalece la imagen profesional del establecimiento: un equipo que domina la jerga técnica transmite confianza, dominio del servicio y compromiso con la excelencia. 
+
 
     .bg11.p-lg-5.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-lg-12
-          p.mb-4 Por lo anterior se invita a ir al siguiente enlace donde encontrará un diccionario con vocabulario técnico hotelero y turístico relacionado.
-          p.mb-3.pri Tomado de la pag.
-          p.mb-4.pri Marrero, M. (2016). Glosario de términos hoteleros, turísticos y relacionados. #[em España: Copyright. Obtenido de https://www. hosteltur. com/files/web/templates/term/wikitur. pdf.]
-
+          p.mb-4 El dominio del vocabulario técnico en el ámbito hotelero no solo mejora la comunicación interna entre los diferentes departamentos, sino que también contribuye a la precisión operativa, al cumplimiento de estándares de calidad y a la formación integral del personal. Conocer y aplicar estos términos de forma adecuada permite brindar un servicio más eficiente, profesional y coherente con las exigencias del sector turístico. En consecuencia, familiarizarse con esta terminología no es una opción, sino una necesidad fundamental para quienes se desempeñan en el área de la hostelería. 
           .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
@@ -762,7 +820,7 @@
                       span Descargar
                       i.fas.fa-file-download
 
-
+    
 
 </template>
 

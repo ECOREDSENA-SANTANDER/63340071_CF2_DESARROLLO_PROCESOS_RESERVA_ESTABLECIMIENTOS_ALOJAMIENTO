@@ -7,54 +7,46 @@
         span 3
       h1 Políticas 
     
-    p.mb-4(data-aos="fade-left") Consiste en una descripción minuciosa de los lineamientos a seguir en el desarrollo de las actividades y la toma de decisiones para el logro de los objetivos empresariales, de tal forma se busca agilizar los procesos decisión, atención y venta de habitaciones. 
+    p.mb-lg-5.mb-4(data-aos="fade-left") Consiste en una descripción minuciosa de los lineamientos a seguir en el desarrollo de las actividades y la toma de decisiones para el logro de los objetivos empresariales, de tal forma se busca agilizar los procesos decisión, atención y venta de habitaciones, como ejemplo, se puede revisar el siguiente proceso: 
     
-     .bg7.p-2.mb-4(data-aos="fade-right")
-      h3.mb-0.ps-4.pe-4 Como ejemplo, se puede revisar el siguiente proceso
+    .titulo2.mb-lg-5.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema2/sub.png', alt='Imagen decorativa')
+      h3.mb-0.mx-4 Requisitos para realizar una reservación en temporada baja 
 
     p.mb-4(data-aos="fade-left") Requisitos para realizar una reservación en temporada baja: 
 
-    .row.justify-content-center.mb-0(data-aos="fade-left")
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-12.position-relative
         .avatar
           figure
-            img.mb-4(src="@/assets/curso/tema3/1.svg", alt="alt").img250
+            img.mb-4(src="@/assets/curso/tema3/1.svg", alt="alt")
         
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/2.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/2.svg", alt="alt")
             .col
               p #[b Proporcionar los datos] (nombre, domicilio, fecha de llegada y salida, tipo de habitación, número de habitación, número de personas, etc.). 
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/3.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/3.svg", alt="alt")
             .col
               p #[b Tarjeta de crédito] (número, fecha de vencimiento, dígitos de seguridad) o realizar un depósito en efectivo a la cuenta del hotel.  
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/4.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/4.svg", alt="alt")
             .col
               p La tarjeta de crédito #[b solo quedará en garantía] y no se realizará ningún cargo, hasta su salida.
     
-    
-    separador
-    #t_3_1.titulo-segundo.mb-lg-5.mb-3
-      h2 3.1 Política de cancelación del hotel 
+    .bg7.p-2.mb-5(data-aos="fade-left")
+      h3.mb-0.ps-4.pe-4 Política de cancelación del hotel   
 
-    .bloque-texto-g.color-secundario.t3.p-3.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema3/5.png')})`}"
-      )
-      .bloque-texto-g__texto.p-lg-5.p-4.my-lg-4.my-2
-        p.mb-0 La política de cancelación de las reservas de hotel, pueden depender de varios factores, como la tarifa de reserva o la fecha #[em #[b check-in.]] Los establecimientos de alojamiento definen sus políticas.
-    
-    p.mb-4 Entre las políticas de cancelación se encuentran las siguientes:
+    p.mb-lg-5.mb-4 La política de cancelación de las reservas de hotel, pueden depender de varios factores, como la tarifa de reserva o la fecha #[em #[b check-in.]] Los establecimientos de alojamiento definen sus políticas. Entre las políticas de cancelación se encuentran las siguientes:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-md-5.col-8.mb-4

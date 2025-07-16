@@ -56,29 +56,24 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Tipos de reservas',
+            titulo: 'Tipos y mecanismo de reserva  ',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Mecanismo de reservas',
+            titulo:
+              'NTSH-003: Prestación del servicio de recepción y reservas en alojamientos según manuales establecidos',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo:
-              'Norma Técnica Sectorial NTSH – 003. Establecimientos de alojamiento y hospedaje. Norma de competencia laboral. Prestación de servicio de recepción y reservas conforme a manuales existentes',
+            titulo: 'Procesos de reservaciones',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: 'Procesos de reservaciones',
-            hash: 't_2_4',
-          },
-          {
-            numero: '2.5',
             titulo: 'Vocabulario técnico',
-            hash: 't_2_5',
+            hash: 't_2_4',
           },
         ],
       },
@@ -87,13 +82,6 @@ export default {
         numero: '3',
         titulo: 'Políticas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '3.1',
-            titulo: 'Política de cancelación del hotel',
-            hash: 't_3_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',

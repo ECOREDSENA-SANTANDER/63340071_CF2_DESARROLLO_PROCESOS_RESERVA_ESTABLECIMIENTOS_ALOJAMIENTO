@@ -164,10 +164,33 @@ figcaption
   position: absolute
   top: -40%
   right: 87%
-  @media (max-width: 767px)
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
     width: 60px
     top: -30%
     right: 85%
+  @media only screen and (max-width: 767px)
+    display: none
+
+.titulo2
+  background-color:#E7C96E
+  border-radius: 50px
+  width: fit-content
+  padding: 5px
+  position: relative 
+.titulo2 img
+  width: 60px
+  position: absolute
+  top: -40%
+  right: 91%
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 60px
+    top: -2.5%
+    right: 90.5%
+  @media only screen and (max-width: 767px)
+    display: none
+
+
+
 
 .enc
   position: absolute
@@ -447,8 +470,8 @@ figcaption
   
 .avatar
   position: absolute
-  bottom: 0
-  right: 2rem
+  bottom: -1.5rem
+  right: 0.8rem
   z-index: 1
   width: 28%
   @media (max-width: 1000px)
@@ -581,3 +604,38 @@ figcaption
 
 .iz
   text-align: left
+
+.bgy
+  background-color: #E7C96E
+  width: fit-content
+
+.bg14
+  background-color: #F7F4F9
+
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #FAF4E2
+.linea-tiempo-d .tarjeta 
+    border-radius: 5px
+.tarjeta--gris
+    background-color: #95DBB3
+.linea-tiempo-d.color-acento-botones.activo .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color:#FAF4E2
+.linea-tiempo-d.color-acento-botones.activo .linea-tiempo-d__item__number 
+    background-color: #95DBB3
+.linea-tiempo-d__item__dots:after 
+    content: ''
+    display: block
+    width: 0
+    height: 100%
+    border-left: 5px dotted #D2E1F1
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    color: black
+
+.tarjeta--grisr
+    background-color: white
+
+.fc
+  word-break: break-word
+  overflow-wrap: break-word
+

@@ -81,7 +81,7 @@
               .col-lg-4.col-md-7.col-10.ps-lg-0
                 figure
                   img.d-none.d-lg-block(src='@/assets/curso/tema5/5.svg', alt='Texto que describa la imagen')
-          .py-4.py-md-5(titulo="Consideraciones adicionales" :icono="require('@/assets/curso/tema5/3.svg')")
+          .py-4.py-md-5(titulo="Consideraciones adicionales" :icono="require('@/assets/curso/tema5/4.svg')")
             .row.justify-content-center.align-items-center
               .col-lg-8
                 h4 Consideraciones adicionales
