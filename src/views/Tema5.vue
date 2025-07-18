@@ -62,22 +62,22 @@
                 ul.lista-ul.mb-0
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Identificación de las partes: nombres y datos de contacto del establecimiento y del cliente.
+                    p.mb-0 #[b Identificación de las partes:] nombres y datos de contacto del establecimiento y del cliente.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Descripción del servicio: detalles del alojamiento y servicios ofrecidos.
+                    p.mb-0 #[b Descripción del servicio:] detalles del alojamiento y servicios ofrecidos.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Precio y condiciones de pago: monto total, depósito, plazos, etc.
+                    p.mb-0 #[b Precio y condiciones de pago:] monto total, depósito, plazos, etc.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Política de cancelación: condiciones y cargos por cancelación o modificación.
+                    p.mb-0 #[b Política de cancelación:] condiciones y cargos por cancelación o modificación.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Duración de la estancia: fechas de llegada y salida.
+                    p.mb-0 #[b Duración de la estancia:] fechas de llegada y salida.
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
-                    p.mb-0 Condiciones adicionales: normas del establecimiento, políticas de mascotas, etc.
+                    p.mb-0 #[b Condiciones adicionales:] normas del establecimiento, políticas de mascotas, etc.
               .col-lg-4.col-md-7.col-10.ps-lg-0
                 figure
                   img.d-none.d-lg-block(src='@/assets/curso/tema5/5.svg', alt='Texto que describa la imagen')

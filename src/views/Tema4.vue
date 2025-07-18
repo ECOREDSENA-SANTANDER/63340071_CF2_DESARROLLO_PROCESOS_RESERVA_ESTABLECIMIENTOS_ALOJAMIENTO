@@ -59,7 +59,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-7
                 h4.mb-4 Tarifa BAR
-                p.mb-4 Con el aumento de canales de distribución, hubo un momento en que el hotelero perdió el control sobre su precio, era usual que llegaran clientes al hotel que habían encontrado una tarifa inferior a través de un intermediario, que directamente con el hotel. Para dar solución a esta problemática y fortalecer la venta directa y aumentar la transparencia de las tarifas, los hoteleros comenzaron a publicar en sus webs la BAR (#[b #[em Best Available Rate]], por su sigla en inglés) por su acrónimo en inglés. La mejor tarifa disponible garantiza que no se va a encontrar una tarifa inferior en ningún canal de distribución.
+                p.mb-4 Con el aumento de canales de distribución, hubo un momento en que el hotelero perdió el control sobre su precio, era usual que llegaran clientes al hotel que habían encontrado una tarifa inferior a través de un intermediario, que directamente con el hotel. Para dar solución a esta problemática y fortalecer la venta directa y aumentar la transparencia de las tarifas, los hoteleros comenzaron a publicar en sus sitios oficiales (#[b #[em Best Available Rate]], por su sigla en inglés) por su acrónimo en inglés. La mejor tarifa disponible garantiza que no se va a encontrar una tarifa inferior en ningún canal de distribución.
                 p.mb-4 El manejo de este tipo de tarifas no tiene que ver sólo con el precio, sino con el valor de la tarifa. 
               .col-lg-4.col-md-7.col-10
                 img.img-a.img-t(src='@/assets/curso/tema4/8.png')
@@ -131,11 +131,12 @@
                 td.text-center(data-aos="fade-left") $289.000
                 td.text-center(data-aos="fade-left") $339.000
         figcaption.mb-4 Fuente: elaborada por el experto SENA
-        p.mb-0 Precio base habitación Estándar: $299.000 COP 
-        p.mb-0 Costo por persona adicional: $30.000 COP 
-        p.mb-4 Nota: todas las tarifas están calculadas para una ocupación base de 2 personas (2 Pax).
         
-    p.mb-4 Además de las tarifas de temporada que se ofrecen al público general, la estructura de precios de un hotel suele incluir tarifas negociadas para segmentos específicos del mercado. A continuación, se detallan ejemplos de estas tarifas especiales, como las corporativas y las de larga estadía (long stay), así como la base de cálculo utilizada para aplicar promociones y descuentos. 
+        p.mb-0 #[b Precio base habitación Estándar:] $299.000 COP 
+        p.mb-0 #[b Costo por persona adicional:] $30.000 COP 
+        p.mb-4 #[b Nota:] todas las tarifas están calculadas para una ocupación base de 2 personas (2 Pax).
+        
+    p.mb-4 Además de las tarifas de temporada que se ofrecen al público general, la estructura de precios de un hotel suele incluir tarifas negociadas para segmentos específicos del mercado. A continuación, se detallan ejemplos de estas tarifas especiales, como las corporativas y las de larga estadía (#[em long stay]), así como la base de cálculo utilizada para aplicar promociones y descuentos. 
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10

@@ -165,12 +165,14 @@ export default {
   ],
   glosario: [
     {
-      termino: 'A&B',
-      significado: 'Alimentos y bebidas.',
+      termino: '<em>Available rate</em> (tarifa disponible)',
+      significado:
+        'precio que el hotel ofrece para una habitación en un momento determinado, según la demanda y disponibilidad.',
     },
     {
-      termino: '<em>Available rate</em>',
-      significado: 'Tarifa disponible.',
+      termino: 'Alojamiento',
+      significado:
+        'servicio que brinda un lugar para hospedarse temporalmente, como hoteles, hostales o apartamentos turísticos.',
     },
     {
       termino: 'Conserjería',
@@ -178,7 +180,7 @@ export default {
         'Departamento ubicado en la recepción o próximo a ésta, desde el que se coordinan y proveen los servicios de atención al cliente.',
     },
     {
-      termino: 'Chatbots',
+      termino: '<em>Chatbots</em>',
       significado:
         '<em>software</em> basado en inteligencia artificial capaz de mantener una conversación en tiempo real por texto o por voz.',
     },
@@ -205,7 +207,8 @@ export default {
     },
     {
       termino: '<em>Overbooking</em>',
-      significado: 'Sobreventa.',
+      significado:
+        'sobreventa de habitaciones, cuando un hotel acepta más reservas de las que puede alojar, anticipando cancelaciones o no <em>shows</em>.',
     },
     {
       termino: 'PAX',

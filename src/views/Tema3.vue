@@ -27,14 +27,14 @@
               figure
                 img(src="@/assets/curso/tema3/2.svg", alt="alt")
             .col
-              p #[b Proporcionar los datos] (nombre, domicilio, fecha de llegada y salida, tipo de habitación, número de habitación, número de personas, etc.). 
+              p #[b Proporcionar los datos:] nombre, domicilio, fecha de llegada y salida, tipo de habitación, número de habitación, número de personas, etc.
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema3/3.svg", alt="alt")
             .col
-              p #[b Tarjeta de crédito] (número, fecha de vencimiento, dígitos de seguridad) o realizar un depósito en efectivo a la cuenta del hotel.  
+              p #[b Tarjeta de crédito:] número, fecha de vencimiento, dígitos de seguridad o realizar un depósito en efectivo a la cuenta del hotel.  
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto

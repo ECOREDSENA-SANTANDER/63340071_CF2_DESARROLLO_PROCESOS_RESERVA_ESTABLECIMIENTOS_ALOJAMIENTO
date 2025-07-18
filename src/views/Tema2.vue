@@ -388,7 +388,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/29.png')})`}"
       )
       .bloque-texto-g__texto.p-lg-5.p-3
-        p.mb-4 Con esta información se procederá hacer el pre-registro; así el huésped al llegar solo registrará su firma o algún otro dato faltante. En el manejo de cuentas es importante solicitar un respaldo para cargos extras y/o en caso de tener una cuenta maestra, conocer muy bien la firma de la persona autorizada.
+        p.mb-4 Con esta información se procederá hacer el preregistro; así el huésped al llegar solo registrará su firma o algún otro dato faltante. En el manejo de cuentas es importante solicitar un respaldo para cargos extras y/o en caso de tener una cuenta maestra, conocer muy bien la firma de la persona autorizada.
         br
         br
         p.mb-0.pri Para la salida del grupo se deben revisar los siguientes aspectos como: pago de cuentas, entrega de llaves, revisión de habitaciones y reportar alguna novedad en caso de presentarse (Báez, 2009).  
@@ -468,7 +468,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         img.mb-4(src='@/assets/curso/tema2/34.svg', alt='formato de registro de reservación hotelera con campos para datos del huésped, alojamiento, forma de pago y control interno.')
-        figcaption.mb-lg-5.mb-4 Tomado de la publicación Gestión del sector alojamiento hotel. Calle, M., Lazo, A., & Granados, M. (2018). Gestión del sector alojamiento-Hotel. #[em Machala: UTMACH.] 
+        figcaption.mb-lg-5.mb-4 Tomado de la publicación: gestión del sector alojamiento hotel. Calle, M., Lazo, A., & Granados, M. (2018). Gestión del sector alojamiento-Hotel. #[em Machala: UTMACH.] 
     
     .bg7.p-2.mb-4
       h3.mb-0.ps-4.pe-4 #[em Rooming list]
@@ -534,7 +534,7 @@
                 td.text-center(data-aos="fade-left") Número de PAX
                 td.text-center(data-aos="fade-left") Plan de alimentación
                 td.text-center(data-aos="fade-left") Observaciones
-                td.text-center(data-aos="fade-left") #[em Tour conductor] (resp. grupo)
+                td.text-center(data-aos="fade-left") #[em Tour] conductor (responsable del grupo)
                 td.text-center(data-aos="fade-left") Ingresó
               tr
                 td.text-center(data-aos="fade-left") 101
@@ -665,7 +665,7 @@
             li.d-flex
               .lista-ol--cuadro__vineta
                 span 1
-              p.mb-0 El agente de reservaciones recibe la solitud de reserva ya sea por solicitud directa, telefónica, correo electrónico, página web, mensajería y chatbots, redes sociales, etc.
+              p.mb-0 El agente de reservaciones recibe la solitud de reserva ya sea por solicitud directa, telefónica, correo electrónico, página web, mensajería y #[em chatbots], redes sociales, etc.
             li.d-flex 
               .lista-ol--cuadro__vineta
                 span 2
@@ -779,27 +779,27 @@
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Facilita la comunicación interna: permite que el personal de diferentes áreas se entienda con mayor rapidez y claridad. 
+                p.mb-0 #[b Facilita la comunicación interna:] permite que el personal de diferentes áreas se entienda con mayor rapidez y claridad. 
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Evita errores operativos: un término mal interpretado puede causar fallas en el servicio. 
+                p.mb-0 #[b Evita errores operativos:] un término mal interpretado puede causar fallas en el servicio. 
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Estándares de calidad: el uso de terminología común asegura que todos los empleados trabajen bajo las mismas normas y procedimientos. 
+                p.mb-0 #[b Estándares de calidad:] el uso de terminología común asegura que todos los empleados trabajen bajo las mismas normas y procedimientos. 
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Mejora la formación del personal: los nuevos colaboradores se integran más fácilmente cuando comprenden el lenguaje propio del sector. 
+                p.mb-0 #[b Mejora la formación del personal:] los nuevos colaboradores se integran más fácilmente cuando comprenden el lenguaje propio del sector. 
           .bgw.p-1.mb-2
             ul.lista-ul.mb-0
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0.ft Fortalece la imagen profesional del establecimiento: un equipo que domina la jerga técnica transmite confianza, dominio del servicio y compromiso con la excelencia. 
+                p.mb-0 #[b Fortalece la imagen profesional del establecimiento:] un equipo que domina la jerga técnica transmite confianza, dominio del servicio y compromiso con la excelencia. 
 
 
     .bg11.p-lg-5.p-4.mb-0(data-aos="fade-right")
