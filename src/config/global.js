@@ -318,6 +318,11 @@ export default {
           cargo: 'Experta temática',
           centro: 'Centro Agroturístico - Regional Santander',
         },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
       ],
     },
     {
