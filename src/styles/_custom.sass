@@ -55,9 +55,23 @@ figcaption
 
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6 
     color: black
-    line-height: 1.1em
+    line-height: 1.5em
+    background-color: white !important
+    padding-right: 1.5% !important
+    padding-left: 1.5% !important
+    border-radius: 0px
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+
 .banner-interno__titulo__icono i 
     color: black
+.banner-interno__titulo__icono 
+    display: block
+    width: 32px
+    height: 32px
+    border-radius: 50%
+    background-color: #fff
+    position: relative
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
 
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
@@ -284,6 +298,9 @@ figcaption
       overflow: auto
       text-overflow: initial
       text-wrap: auto
+      &::after,
+      &::before
+        display: none !important
 
 
 .fondo3

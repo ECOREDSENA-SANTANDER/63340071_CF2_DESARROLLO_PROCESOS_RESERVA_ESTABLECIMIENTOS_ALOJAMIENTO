@@ -175,7 +175,7 @@
     .bg11.p-lg-5.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items-center
         .col-lg-12
-          p.mb-4 Dentro de un proceso de reserva, es importante tener claridad de los sitios de interés para el turista que se encuentren cerca del establecimiento de alojamiento, actividades lúdicas, manifestaciones culturales, eventos, sitios naturales, que el turista pueda aprovechar dentro o fuera del establecimiento mientras su estadía, con el fin de que pueda aprovechar su tiempo libre, se lleve una buena experiencia y vuelva al establecimiento.  
+          p.mb-4 Dentro de un proceso de reserva, es importante tener claridad sobre los sitios de interés cercanos al establecimiento de alojamiento, como actividades lúdicas, manifestaciones culturales, eventos, lugares naturales, que el turista pueda disfrutar durante su estadía, tanto dentro como fuera del establecimiento. Esto con el fin de que pueda aprovechar su tiempo libre, tener una buena experiencia y vuelva al establecimiento.
 
           .tarjeta.color-acento-contenido.p-4.mb-0(data-aos="fade-right")
             .row.justify-content-around.align-items-center

@@ -122,7 +122,7 @@
           img.mb-0.d-none.d-lg-block.img-t(src='@/assets/curso/tema2/11.svg' alt="")
         .col-lg-11
           p.mb-4 Se trabajan con colores para que con una vista se pueda ver el estado de ocupación del hotel.
-          p.mb-0.pri Por ejemplo, azul para las reservas tentativas, rojos para las confirmadas, o verde para las que se desocupan. Se realiza de acuerdo el criterio y la comodidad quien las usa. 
+          p.mb-0.pri Por ejemplo, azul para las reservas tentativas, rojo para las confirmadas, o verde para las que se desocupan. Se realiza de acuerdo con el criterio y la comodidad de quien las usa. 
 
     p.mb-4 Como ejemplo los invito a revisar el siguiente video: 
 
@@ -408,7 +408,7 @@
                   .col-lg-12
                     p.mb-0 En la práctica, la garantía de una reserva hotelera se realiza mediante pago anticipado de la misma y cuando el huésped es un #[em no show] y no canceló con anticipación, el hotel aplica una tarifa #[em no show], que es definida según políticas del establecimiento, a la que se le realiza el proceso de #[em check-in] y #[em check-out.] 
 
-    p.mb-4 De acuerdo con lo anterior, para un hotel un pasajero #[em no show], no genera pérdidas en la venta de habitaciones. 
+    p.mb-4 De acuerdo con lo anterior, para un hotel, un pasajero #[em no show], no genera pérdidas en la venta de habitaciones. 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4

@@ -59,7 +59,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-7
                 h4.mb-4 Tarifa BAR
-                p.mb-4 Con el aumento de canales de distribución, hubo un momento en que el hotelero perdió el control sobre su precio, era usual que llegaran clientes al hotel que habían encontrado una tarifa inferior a través de un intermediario, que directamente con el hotel. Para dar solución a esta problemática y fortalecer la venta directa y aumentar la transparencia de las tarifas, los hoteleros comenzaron a publicar en sus sitios oficiales (#[b #[em Best Available Rate]], por su sigla en inglés) por su acrónimo en inglés. La mejor tarifa disponible garantiza que no se va a encontrar una tarifa inferior en ningún canal de distribución.
+                p.mb-4 Con el aumento de canales de distribución, hubo un momento en que el hotelero perdió el control sobre su precio, era usual que llegaran clientes al hotel que habían encontrado una tarifa inferior a través de un intermediario, que directamente con el hotel. Para dar solución a esta problemática y fortalecer la venta directa y aumentar la transparencia de las tarifas, los hoteleros comenzaron a publicar en sus sitios oficiales (#[em #[b Best Available Rate]],  por su sigla en inglés). La mejor tarifa disponible garantiza que no se va a encontrar una tarifa inferior en ningún canal de distribución. 
                 p.mb-4 El manejo de este tipo de tarifas no tiene que ver sólo con el precio, sino con el valor de la tarifa. 
               .col-lg-4.col-md-7.col-10
                 img.img-a.img-t(src='@/assets/curso/tema4/8.png')

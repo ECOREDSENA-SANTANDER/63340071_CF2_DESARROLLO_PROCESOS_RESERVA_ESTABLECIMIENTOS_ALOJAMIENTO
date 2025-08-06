@@ -222,7 +222,7 @@ export default {
     {
       termino: '<em>Planning</em> de habitaciones',
       significado:
-        'Panel o casillero físico o digital en el que están representadas todas las habitaciones de un establecimiento alojativo y que sirve para gestionar el estado en se encuentran (libre, ocupada, bloqueada, etc.).',
+        'Panel o casillero físico o digital en el que están representadas todas las habitaciones de un establecimiento alojativo y que sirve para gestionar el estado en que se encuentran (libre, ocupada, bloqueada, etc.).',
     },
     {
       termino: '<em>Rooming list</em>',
@@ -231,7 +231,7 @@ export default {
     },
     {
       termino: '<em>Stock</em>',
-      significado: 'Inventario que tiene un negocio tiene a su disposición.',
+      significado: 'Inventario que tiene un negocio a su disposición.',
     },
     {
       termino: '<em>Upgrade</em>',
